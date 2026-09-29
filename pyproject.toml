@@ -1,0 +1,9 @@
+[project]
+name = "neuropath-ai"
+version = "0.1.0"
+description = "FlyWire 3D connectome circuit analysis"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

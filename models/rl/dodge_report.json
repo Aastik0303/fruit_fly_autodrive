@@ -1,0 +1,8465 @@
+{
+  "settings": {
+    "episodes": 400,
+    "eval_episodes": 30,
+    "frame_skip": 4,
+    "max_frames": 8000,
+    "reward_per_block": 0.1,
+    "hit_penalty": -10.0,
+    "hops": 4,
+    "descending_neurons": 1303,
+    "grid_cells": 240
+  },
+  "training": {
+    "connectome": [
+      {
+        "episode": 0,
+        "score": 9,
+        "seconds": 6.0,
+        "hits": 3,
+        "epsilon": 1.0
+      },
+      {
+        "episode": 1,
+        "score": 4,
+        "seconds": 5.1,
+        "hits": 3,
+        "epsilon": 0.997
+      },
+      {
+        "episode": 2,
+        "score": 41,
+        "seconds": 11.5,
+        "hits": 3,
+        "epsilon": 0.993
+      },
+      {
+        "episode": 3,
+        "score": 8,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.99
+      },
+      {
+        "episode": 4,
+        "score": 0,
+        "seconds": 4.4,
+        "hits": 3,
+        "epsilon": 0.986
+      },
+      {
+        "episode": 5,
+        "score": 29,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.983
+      },
+      {
+        "episode": 6,
+        "score": 2,
+        "seconds": 4.7,
+        "hits": 3,
+        "epsilon": 0.979
+      },
+      {
+        "episode": 7,
+        "score": 16,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.976
+      },
+      {
+        "episode": 8,
+        "score": 11,
+        "seconds": 6.1,
+        "hits": 3,
+        "epsilon": 0.972
+      },
+      {
+        "episode": 9,
+        "score": 31,
+        "seconds": 10.2,
+        "hits": 3,
+        "epsilon": 0.969
+      },
+      {
+        "episode": 10,
+        "score": 1,
+        "seconds": 4.4,
+        "hits": 3,
+        "epsilon": 0.965
+      },
+      {
+        "episode": 11,
+        "score": 20,
+        "seconds": 7.2,
+        "hits": 3,
+        "epsilon": 0.962
+      },
+      {
+        "episode": 12,
+        "score": 2,
+        "seconds": 4.9,
+        "hits": 3,
+        "epsilon": 0.958
+      },
+      {
+        "episode": 13,
+        "score": 0,
+        "seconds": 4.5,
+        "hits": 3,
+        "epsilon": 0.955
+      },
+      {
+        "episode": 14,
+        "score": 9,
+        "seconds": 5.3,
+        "hits": 3,
+        "epsilon": 0.951
+      },
+      {
+        "episode": 15,
+        "score": 36,
+        "seconds": 10.4,
+        "hits": 3,
+        "epsilon": 0.948
+      },
+      {
+        "episode": 16,
+        "score": 5,
+        "seconds": 5.6,
+        "hits": 3,
+        "epsilon": 0.944
+      },
+      {
+        "episode": 17,
+        "score": 28,
+        "seconds": 9.7,
+        "hits": 3,
+        "epsilon": 0.941
+      },
+      {
+        "episode": 18,
+        "score": 8,
+        "seconds": 5.7,
+        "hits": 3,
+        "epsilon": 0.937
+      },
+      {
+        "episode": 19,
+        "score": 3,
+        "seconds": 5.0,
+        "hits": 3,
+        "epsilon": 0.933
+      },
+      {
+        "episode": 20,
+        "score": 4,
+        "seconds": 4.8,
+        "hits": 3,
+        "epsilon": 0.93
+      },
+      {
+        "episode": 21,
+        "score": 39,
+        "seconds": 10.7,
+        "hits": 3,
+        "epsilon": 0.926
+      },
+      {
+        "episode": 22,
+        "score": 17,
+        "seconds": 7.7,
+        "hits": 3,
+        "epsilon": 0.923
+      },
+      {
+        "episode": 23,
+        "score": 25,
+        "seconds": 9.6,
+        "hits": 3,
+        "epsilon": 0.919
+      },
+      {
+        "episode": 24,
+        "score": 20,
+        "seconds": 7.8,
+        "hits": 3,
+        "epsilon": 0.916
+      },
+      {
+        "episode": 25,
+        "score": 7,
+        "seconds": 5.4,
+        "hits": 3,
+        "epsilon": 0.912
+      },
+      {
+        "episode": 26,
+        "score": 0,
+        "seconds": 4.3,
+        "hits": 3,
+        "epsilon": 0.909
+      },
+      {
+        "episode": 27,
+        "score": 7,
+        "seconds": 5.4,
+        "hits": 3,
+        "epsilon": 0.905
+      },
+      {
+        "episode": 28,
+        "score": 55,
+        "seconds": 13.2,
+        "hits": 3,
+        "epsilon": 0.902
+      },
+      {
+        "episode": 29,
+        "score": 40,
+        "seconds": 11.4,
+        "hits": 3,
+        "epsilon": 0.898
+      },
+      {
+        "episode": 30,
+        "score": 30,
+        "seconds": 9.8,
+        "hits": 3,
+        "epsilon": 0.895
+      },
+      {
+        "episode": 31,
+        "score": 29,
+        "seconds": 9.6,
+        "hits": 3,
+        "epsilon": 0.891
+      },
+      {
+        "episode": 32,
+        "score": 17,
+        "seconds": 7.4,
+        "hits": 3,
+        "epsilon": 0.888
+      },
+      {
+        "episode": 33,
+        "score": 31,
+        "seconds": 9.3,
+        "hits": 3,
+        "epsilon": 0.885
+      },
+      {
+        "episode": 34,
+        "score": 3,
+        "seconds": 4.6,
+        "hits": 3,
+        "epsilon": 0.881
+      },
+      {
+        "episode": 35,
+        "score": 18,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.878
+      },
+      {
+        "episode": 36,
+        "score": 24,
+        "seconds": 8.1,
+        "hits": 3,
+        "epsilon": 0.874
+      },
+      {
+        "episode": 37,
+        "score": 32,
+        "seconds": 9.6,
+        "hits": 3,
+        "epsilon": 0.871
+      },
+      {
+        "episode": 38,
+        "score": 11,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.867
+      },
+      {
+        "episode": 39,
+        "score": 4,
+        "seconds": 4.8,
+        "hits": 3,
+        "epsilon": 0.864
+      },
+      {
+        "episode": 40,
+        "score": 39,
+        "seconds": 11.3,
+        "hits": 3,
+        "epsilon": 0.86
+      },
+      {
+        "episode": 41,
+        "score": 30,
+        "seconds": 9.6,
+        "hits": 3,
+        "epsilon": 0.857
+      },
+      {
+        "episode": 42,
+        "score": 17,
+        "seconds": 8.0,
+        "hits": 3,
+        "epsilon": 0.853
+      },
+      {
+        "episode": 43,
+        "score": 22,
+        "seconds": 8.2,
+        "hits": 3,
+        "epsilon": 0.85
+      },
+      {
+        "episode": 44,
+        "score": 7,
+        "seconds": 5.3,
+        "hits": 3,
+        "epsilon": 0.846
+      },
+      {
+        "episode": 45,
+        "score": 3,
+        "seconds": 4.8,
+        "hits": 3,
+        "epsilon": 0.843
+      },
+      {
+        "episode": 46,
+        "score": 51,
+        "seconds": 12.9,
+        "hits": 3,
+        "epsilon": 0.839
+      },
+      {
+        "episode": 47,
+        "score": 23,
+        "seconds": 8.1,
+        "hits": 3,
+        "epsilon": 0.836
+      },
+      {
+        "episode": 48,
+        "score": 33,
+        "seconds": 9.9,
+        "hits": 3,
+        "epsilon": 0.832
+      },
+      {
+        "episode": 49,
+        "score": 28,
+        "seconds": 9.2,
+        "hits": 3,
+        "epsilon": 0.829
+      },
+      {
+        "episode": 50,
+        "score": 4,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.825
+      },
+      {
+        "episode": 51,
+        "score": 9,
+        "seconds": 5.2,
+        "hits": 3,
+        "epsilon": 0.822
+      },
+      {
+        "episode": 52,
+        "score": 4,
+        "seconds": 5.2,
+        "hits": 3,
+        "epsilon": 0.818
+      },
+      {
+        "episode": 53,
+        "score": 28,
+        "seconds": 8.6,
+        "hits": 3,
+        "epsilon": 0.815
+      },
+      {
+        "episode": 54,
+        "score": 18,
+        "seconds": 7.0,
+        "hits": 3,
+        "epsilon": 0.811
+      },
+      {
+        "episode": 55,
+        "score": 30,
+        "seconds": 9.9,
+        "hits": 3,
+        "epsilon": 0.807
+      },
+      {
+        "episode": 56,
+        "score": 29,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.804
+      },
+      {
+        "episode": 57,
+        "score": 22,
+        "seconds": 8.0,
+        "hits": 3,
+        "epsilon": 0.8
+      },
+      {
+        "episode": 58,
+        "score": 13,
+        "seconds": 6.3,
+        "hits": 3,
+        "epsilon": 0.797
+      },
+      {
+        "episode": 59,
+        "score": 33,
+        "seconds": 10.3,
+        "hits": 3,
+        "epsilon": 0.793
+      },
+      {
+        "episode": 60,
+        "score": 26,
+        "seconds": 8.6,
+        "hits": 3,
+        "epsilon": 0.79
+      },
+      {
+        "episode": 61,
+        "score": 13,
+        "seconds": 6.8,
+        "hits": 3,
+        "epsilon": 0.786
+      },
+      {
+        "episode": 62,
+        "score": 11,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.783
+      },
+      {
+        "episode": 63,
+        "score": 10,
+        "seconds": 5.9,
+        "hits": 3,
+        "epsilon": 0.779
+      },
+      {
+        "episode": 64,
+        "score": 6,
+        "seconds": 5.4,
+        "hits": 3,
+        "epsilon": 0.776
+      },
+      {
+        "episode": 65,
+        "score": 13,
+        "seconds": 6.2,
+        "hits": 3,
+        "epsilon": 0.772
+      },
+      {
+        "episode": 66,
+        "score": 27,
+        "seconds": 9.4,
+        "hits": 3,
+        "epsilon": 0.769
+      },
+      {
+        "episode": 67,
+        "score": 26,
+        "seconds": 9.1,
+        "hits": 3,
+        "epsilon": 0.766
+      },
+      {
+        "episode": 68,
+        "score": 8,
+        "seconds": 5.3,
+        "hits": 3,
+        "epsilon": 0.762
+      },
+      {
+        "episode": 69,
+        "score": 12,
+        "seconds": 6.8,
+        "hits": 3,
+        "epsilon": 0.758
+      },
+      {
+        "episode": 70,
+        "score": 1,
+        "seconds": 4.6,
+        "hits": 3,
+        "epsilon": 0.755
+      },
+      {
+        "episode": 71,
+        "score": 32,
+        "seconds": 9.7,
+        "hits": 3,
+        "epsilon": 0.752
+      },
+      {
+        "episode": 72,
+        "score": 11,
+        "seconds": 5.9,
+        "hits": 3,
+        "epsilon": 0.748
+      },
+      {
+        "episode": 73,
+        "score": 22,
+        "seconds": 7.5,
+        "hits": 3,
+        "epsilon": 0.745
+      },
+      {
+        "episode": 74,
+        "score": 17,
+        "seconds": 7.4,
+        "hits": 3,
+        "epsilon": 0.741
+      },
+      {
+        "episode": 75,
+        "score": 26,
+        "seconds": 10.0,
+        "hits": 3,
+        "epsilon": 0.738
+      },
+      {
+        "episode": 76,
+        "score": 7,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.734
+      },
+      {
+        "episode": 77,
+        "score": 8,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.731
+      },
+      {
+        "episode": 78,
+        "score": 10,
+        "seconds": 5.6,
+        "hits": 3,
+        "epsilon": 0.727
+      },
+      {
+        "episode": 79,
+        "score": 10,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.724
+      },
+      {
+        "episode": 80,
+        "score": 22,
+        "seconds": 8.4,
+        "hits": 3,
+        "epsilon": 0.72
+      },
+      {
+        "episode": 81,
+        "score": 7,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.717
+      },
+      {
+        "episode": 82,
+        "score": 7,
+        "seconds": 5.2,
+        "hits": 3,
+        "epsilon": 0.713
+      },
+      {
+        "episode": 83,
+        "score": 50,
+        "seconds": 12.9,
+        "hits": 3,
+        "epsilon": 0.71
+      },
+      {
+        "episode": 84,
+        "score": 37,
+        "seconds": 10.8,
+        "hits": 3,
+        "epsilon": 0.706
+      },
+      {
+        "episode": 85,
+        "score": 16,
+        "seconds": 7.3,
+        "hits": 3,
+        "epsilon": 0.703
+      },
+      {
+        "episode": 86,
+        "score": 14,
+        "seconds": 6.8,
+        "hits": 3,
+        "epsilon": 0.699
+      },
+      {
+        "episode": 87,
+        "score": 33,
+        "seconds": 10.0,
+        "hits": 3,
+        "epsilon": 0.696
+      },
+      {
+        "episode": 88,
+        "score": 6,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.692
+      },
+      {
+        "episode": 89,
+        "score": 41,
+        "seconds": 11.3,
+        "hits": 3,
+        "epsilon": 0.689
+      },
+      {
+        "episode": 90,
+        "score": 8,
+        "seconds": 6.7,
+        "hits": 3,
+        "epsilon": 0.685
+      },
+      {
+        "episode": 91,
+        "score": 101,
+        "seconds": 22.9,
+        "hits": 3,
+        "epsilon": 0.681
+      },
+      {
+        "episode": 92,
+        "score": 19,
+        "seconds": 8.7,
+        "hits": 3,
+        "epsilon": 0.678
+      },
+      {
+        "episode": 93,
+        "score": 39,
+        "seconds": 11.1,
+        "hits": 3,
+        "epsilon": 0.674
+      },
+      {
+        "episode": 94,
+        "score": 23,
+        "seconds": 7.5,
+        "hits": 3,
+        "epsilon": 0.671
+      },
+      {
+        "episode": 95,
+        "score": 21,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.667
+      },
+      {
+        "episode": 96,
+        "score": 18,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.664
+      },
+      {
+        "episode": 97,
+        "score": 63,
+        "seconds": 16.1,
+        "hits": 3,
+        "epsilon": 0.66
+      },
+      {
+        "episode": 98,
+        "score": 5,
+        "seconds": 5.7,
+        "hits": 3,
+        "epsilon": 0.657
+      },
+      {
+        "episode": 99,
+        "score": 82,
+        "seconds": 18.6,
+        "hits": 3,
+        "epsilon": 0.653
+      },
+      {
+        "episode": 100,
+        "score": 6,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.65
+      },
+      {
+        "episode": 101,
+        "score": 35,
+        "seconds": 9.8,
+        "hits": 3,
+        "epsilon": 0.646
+      },
+      {
+        "episode": 102,
+        "score": 18,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.643
+      },
+      {
+        "episode": 103,
+        "score": 23,
+        "seconds": 9.5,
+        "hits": 3,
+        "epsilon": 0.639
+      },
+      {
+        "episode": 104,
+        "score": 50,
+        "seconds": 12.8,
+        "hits": 3,
+        "epsilon": 0.636
+      },
+      {
+        "episode": 105,
+        "score": 70,
+        "seconds": 16.2,
+        "hits": 3,
+        "epsilon": 0.633
+      },
+      {
+        "episode": 106,
+        "score": 37,
+        "seconds": 11.3,
+        "hits": 3,
+        "epsilon": 0.629
+      },
+      {
+        "episode": 107,
+        "score": 37,
+        "seconds": 10.2,
+        "hits": 3,
+        "epsilon": 0.625
+      },
+      {
+        "episode": 108,
+        "score": 106,
+        "seconds": 21.7,
+        "hits": 3,
+        "epsilon": 0.622
+      },
+      {
+        "episode": 109,
+        "score": 19,
+        "seconds": 7.7,
+        "hits": 3,
+        "epsilon": 0.619
+      },
+      {
+        "episode": 110,
+        "score": 14,
+        "seconds": 7.3,
+        "hits": 3,
+        "epsilon": 0.615
+      },
+      {
+        "episode": 111,
+        "score": 8,
+        "seconds": 5.4,
+        "hits": 3,
+        "epsilon": 0.611
+      },
+      {
+        "episode": 112,
+        "score": 53,
+        "seconds": 13.1,
+        "hits": 3,
+        "epsilon": 0.608
+      },
+      {
+        "episode": 113,
+        "score": 60,
+        "seconds": 14.2,
+        "hits": 3,
+        "epsilon": 0.605
+      },
+      {
+        "episode": 114,
+        "score": 41,
+        "seconds": 11.5,
+        "hits": 3,
+        "epsilon": 0.601
+      },
+      {
+        "episode": 115,
+        "score": 3,
+        "seconds": 5.0,
+        "hits": 3,
+        "epsilon": 0.597
+      },
+      {
+        "episode": 116,
+        "score": 44,
+        "seconds": 12.4,
+        "hits": 3,
+        "epsilon": 0.594
+      },
+      {
+        "episode": 117,
+        "score": 32,
+        "seconds": 9.3,
+        "hits": 3,
+        "epsilon": 0.591
+      },
+      {
+        "episode": 118,
+        "score": 35,
+        "seconds": 10.9,
+        "hits": 3,
+        "epsilon": 0.587
+      },
+      {
+        "episode": 119,
+        "score": 37,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.583
+      },
+      {
+        "episode": 120,
+        "score": 54,
+        "seconds": 13.7,
+        "hits": 3,
+        "epsilon": 0.58
+      },
+      {
+        "episode": 121,
+        "score": 14,
+        "seconds": 6.9,
+        "hits": 3,
+        "epsilon": 0.577
+      },
+      {
+        "episode": 122,
+        "score": 20,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.573
+      },
+      {
+        "episode": 123,
+        "score": 53,
+        "seconds": 13.6,
+        "hits": 3,
+        "epsilon": 0.57
+      },
+      {
+        "episode": 124,
+        "score": 22,
+        "seconds": 7.7,
+        "hits": 3,
+        "epsilon": 0.566
+      },
+      {
+        "episode": 125,
+        "score": 5,
+        "seconds": 4.9,
+        "hits": 3,
+        "epsilon": 0.562
+      },
+      {
+        "episode": 126,
+        "score": 25,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.559
+      },
+      {
+        "episode": 127,
+        "score": 21,
+        "seconds": 7.5,
+        "hits": 3,
+        "epsilon": 0.556
+      },
+      {
+        "episode": 128,
+        "score": 14,
+        "seconds": 6.3,
+        "hits": 3,
+        "epsilon": 0.552
+      },
+      {
+        "episode": 129,
+        "score": 57,
+        "seconds": 14.1,
+        "hits": 3,
+        "epsilon": 0.548
+      },
+      {
+        "episode": 130,
+        "score": 25,
+        "seconds": 7.8,
+        "hits": 3,
+        "epsilon": 0.545
+      },
+      {
+        "episode": 131,
+        "score": 36,
+        "seconds": 10.4,
+        "hits": 3,
+        "epsilon": 0.542
+      },
+      {
+        "episode": 132,
+        "score": 23,
+        "seconds": 8.2,
+        "hits": 3,
+        "epsilon": 0.538
+      },
+      {
+        "episode": 133,
+        "score": 9,
+        "seconds": 6.7,
+        "hits": 3,
+        "epsilon": 0.534
+      },
+      {
+        "episode": 134,
+        "score": 123,
+        "seconds": 26.4,
+        "hits": 3,
+        "epsilon": 0.531
+      },
+      {
+        "episode": 135,
+        "score": 129,
+        "seconds": 27.8,
+        "hits": 3,
+        "epsilon": 0.527
+      },
+      {
+        "episode": 136,
+        "score": 45,
+        "seconds": 12.7,
+        "hits": 3,
+        "epsilon": 0.524
+      },
+      {
+        "episode": 137,
+        "score": 70,
+        "seconds": 17.3,
+        "hits": 3,
+        "epsilon": 0.52
+      },
+      {
+        "episode": 138,
+        "score": 25,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.517
+      },
+      {
+        "episode": 139,
+        "score": 60,
+        "seconds": 15.2,
+        "hits": 3,
+        "epsilon": 0.514
+      },
+      {
+        "episode": 140,
+        "score": 15,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.51
+      },
+      {
+        "episode": 141,
+        "score": 5,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.506
+      },
+      {
+        "episode": 142,
+        "score": 18,
+        "seconds": 7.3,
+        "hits": 3,
+        "epsilon": 0.503
+      },
+      {
+        "episode": 143,
+        "score": 70,
+        "seconds": 15.9,
+        "hits": 3,
+        "epsilon": 0.5
+      },
+      {
+        "episode": 144,
+        "score": 38,
+        "seconds": 10.8,
+        "hits": 3,
+        "epsilon": 0.496
+      },
+      {
+        "episode": 145,
+        "score": 40,
+        "seconds": 11.8,
+        "hits": 3,
+        "epsilon": 0.493
+      },
+      {
+        "episode": 146,
+        "score": 42,
+        "seconds": 11.8,
+        "hits": 3,
+        "epsilon": 0.489
+      },
+      {
+        "episode": 147,
+        "score": 18,
+        "seconds": 7.2,
+        "hits": 3,
+        "epsilon": 0.486
+      },
+      {
+        "episode": 148,
+        "score": 17,
+        "seconds": 7.0,
+        "hits": 3,
+        "epsilon": 0.482
+      },
+      {
+        "episode": 149,
+        "score": 22,
+        "seconds": 8.1,
+        "hits": 3,
+        "epsilon": 0.478
+      },
+      {
+        "episode": 150,
+        "score": 37,
+        "seconds": 10.7,
+        "hits": 3,
+        "epsilon": 0.475
+      },
+      {
+        "episode": 151,
+        "score": 39,
+        "seconds": 10.7,
+        "hits": 3,
+        "epsilon": 0.472
+      },
+      {
+        "episode": 152,
+        "score": 139,
+        "seconds": 29.4,
+        "hits": 3,
+        "epsilon": 0.468
+      },
+      {
+        "episode": 153,
+        "score": 44,
+        "seconds": 12.2,
+        "hits": 3,
+        "epsilon": 0.465
+      },
+      {
+        "episode": 154,
+        "score": 38,
+        "seconds": 10.8,
+        "hits": 3,
+        "epsilon": 0.461
+      },
+      {
+        "episode": 155,
+        "score": 39,
+        "seconds": 11.5,
+        "hits": 3,
+        "epsilon": 0.458
+      },
+      {
+        "episode": 156,
+        "score": 42,
+        "seconds": 11.7,
+        "hits": 3,
+        "epsilon": 0.454
+      },
+      {
+        "episode": 157,
+        "score": 31,
+        "seconds": 10.3,
+        "hits": 3,
+        "epsilon": 0.451
+      },
+      {
+        "episode": 158,
+        "score": 79,
+        "seconds": 18.2,
+        "hits": 3,
+        "epsilon": 0.447
+      },
+      {
+        "episode": 159,
+        "score": 12,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.444
+      },
+      {
+        "episode": 160,
+        "score": 140,
+        "seconds": 30.4,
+        "hits": 3,
+        "epsilon": 0.44
+      },
+      {
+        "episode": 161,
+        "score": 48,
+        "seconds": 12.4,
+        "hits": 3,
+        "epsilon": 0.436
+      },
+      {
+        "episode": 162,
+        "score": 19,
+        "seconds": 8.3,
+        "hits": 3,
+        "epsilon": 0.433
+      },
+      {
+        "episode": 163,
+        "score": 60,
+        "seconds": 14.1,
+        "hits": 3,
+        "epsilon": 0.429
+      },
+      {
+        "episode": 164,
+        "score": 32,
+        "seconds": 9.8,
+        "hits": 3,
+        "epsilon": 0.426
+      },
+      {
+        "episode": 165,
+        "score": 48,
+        "seconds": 12.8,
+        "hits": 3,
+        "epsilon": 0.422
+      },
+      {
+        "episode": 166,
+        "score": 78,
+        "seconds": 18.3,
+        "hits": 3,
+        "epsilon": 0.419
+      },
+      {
+        "episode": 167,
+        "score": 30,
+        "seconds": 8.9,
+        "hits": 3,
+        "epsilon": 0.415
+      },
+      {
+        "episode": 168,
+        "score": 40,
+        "seconds": 10.7,
+        "hits": 3,
+        "epsilon": 0.412
+      },
+      {
+        "episode": 169,
+        "score": 36,
+        "seconds": 9.8,
+        "hits": 3,
+        "epsilon": 0.408
+      },
+      {
+        "episode": 170,
+        "score": 94,
+        "seconds": 21.3,
+        "hits": 3,
+        "epsilon": 0.405
+      },
+      {
+        "episode": 171,
+        "score": 55,
+        "seconds": 13.2,
+        "hits": 3,
+        "epsilon": 0.402
+      },
+      {
+        "episode": 172,
+        "score": 20,
+        "seconds": 7.9,
+        "hits": 3,
+        "epsilon": 0.398
+      },
+      {
+        "episode": 173,
+        "score": 34,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.395
+      },
+      {
+        "episode": 174,
+        "score": 69,
+        "seconds": 16.8,
+        "hits": 3,
+        "epsilon": 0.391
+      },
+      {
+        "episode": 175,
+        "score": 106,
+        "seconds": 23.1,
+        "hits": 3,
+        "epsilon": 0.387
+      },
+      {
+        "episode": 176,
+        "score": 44,
+        "seconds": 12.0,
+        "hits": 3,
+        "epsilon": 0.384
+      },
+      {
+        "episode": 177,
+        "score": 11,
+        "seconds": 6.4,
+        "hits": 3,
+        "epsilon": 0.38
+      },
+      {
+        "episode": 178,
+        "score": 35,
+        "seconds": 10.0,
+        "hits": 3,
+        "epsilon": 0.377
+      },
+      {
+        "episode": 179,
+        "score": 25,
+        "seconds": 8.3,
+        "hits": 3,
+        "epsilon": 0.374
+      },
+      {
+        "episode": 180,
+        "score": 66,
+        "seconds": 16.3,
+        "hits": 3,
+        "epsilon": 0.37
+      },
+      {
+        "episode": 181,
+        "score": 36,
+        "seconds": 10.3,
+        "hits": 3,
+        "epsilon": 0.367
+      },
+      {
+        "episode": 182,
+        "score": 110,
+        "seconds": 23.3,
+        "hits": 3,
+        "epsilon": 0.363
+      },
+      {
+        "episode": 183,
+        "score": 43,
+        "seconds": 11.8,
+        "hits": 3,
+        "epsilon": 0.36
+      },
+      {
+        "episode": 184,
+        "score": 68,
+        "seconds": 16.3,
+        "hits": 3,
+        "epsilon": 0.356
+      },
+      {
+        "episode": 185,
+        "score": 65,
+        "seconds": 15.8,
+        "hits": 3,
+        "epsilon": 0.353
+      },
+      {
+        "episode": 186,
+        "score": 158,
+        "seconds": 31.9,
+        "hits": 3,
+        "epsilon": 0.349
+      },
+      {
+        "episode": 187,
+        "score": 212,
+        "seconds": 42.0,
+        "hits": 3,
+        "epsilon": 0.346
+      },
+      {
+        "episode": 188,
+        "score": 46,
+        "seconds": 12.7,
+        "hits": 3,
+        "epsilon": 0.342
+      },
+      {
+        "episode": 189,
+        "score": 79,
+        "seconds": 17.9,
+        "hits": 3,
+        "epsilon": 0.339
+      },
+      {
+        "episode": 190,
+        "score": 153,
+        "seconds": 32.3,
+        "hits": 3,
+        "epsilon": 0.335
+      },
+      {
+        "episode": 191,
+        "score": 117,
+        "seconds": 25.5,
+        "hits": 3,
+        "epsilon": 0.332
+      },
+      {
+        "episode": 192,
+        "score": 50,
+        "seconds": 13.0,
+        "hits": 3,
+        "epsilon": 0.328
+      },
+      {
+        "episode": 193,
+        "score": 253,
+        "seconds": 51.1,
+        "hits": 3,
+        "epsilon": 0.325
+      },
+      {
+        "episode": 194,
+        "score": 152,
+        "seconds": 31.9,
+        "hits": 3,
+        "epsilon": 0.321
+      },
+      {
+        "episode": 195,
+        "score": 24,
+        "seconds": 9.1,
+        "hits": 3,
+        "epsilon": 0.318
+      },
+      {
+        "episode": 196,
+        "score": 64,
+        "seconds": 15.8,
+        "hits": 3,
+        "epsilon": 0.314
+      },
+      {
+        "episode": 197,
+        "score": 115,
+        "seconds": 25.1,
+        "hits": 3,
+        "epsilon": 0.31
+      },
+      {
+        "episode": 198,
+        "score": 247,
+        "seconds": 49.9,
+        "hits": 3,
+        "epsilon": 0.307
+      },
+      {
+        "episode": 199,
+        "score": 176,
+        "seconds": 35.2,
+        "hits": 3,
+        "epsilon": 0.303
+      },
+      {
+        "episode": 200,
+        "score": 74,
+        "seconds": 17.6,
+        "hits": 3,
+        "epsilon": 0.3
+      },
+      {
+        "episode": 201,
+        "score": 156,
+        "seconds": 31.4,
+        "hits": 3,
+        "epsilon": 0.296
+      },
+      {
+        "episode": 202,
+        "score": 50,
+        "seconds": 14.4,
+        "hits": 3,
+        "epsilon": 0.293
+      },
+      {
+        "episode": 203,
+        "score": 69,
+        "seconds": 17.6,
+        "hits": 3,
+        "epsilon": 0.289
+      },
+      {
+        "episode": 204,
+        "score": 151,
+        "seconds": 30.1,
+        "hits": 3,
+        "epsilon": 0.286
+      },
+      {
+        "episode": 205,
+        "score": 205,
+        "seconds": 39.7,
+        "hits": 3,
+        "epsilon": 0.282
+      },
+      {
+        "episode": 206,
+        "score": 85,
+        "seconds": 19.8,
+        "hits": 3,
+        "epsilon": 0.279
+      },
+      {
+        "episode": 207,
+        "score": 50,
+        "seconds": 13.4,
+        "hits": 3,
+        "epsilon": 0.276
+      },
+      {
+        "episode": 208,
+        "score": 225,
+        "seconds": 44.5,
+        "hits": 3,
+        "epsilon": 0.272
+      },
+      {
+        "episode": 209,
+        "score": 281,
+        "seconds": 51.8,
+        "hits": 3,
+        "epsilon": 0.269
+      },
+      {
+        "episode": 210,
+        "score": 73,
+        "seconds": 16.8,
+        "hits": 3,
+        "epsilon": 0.265
+      },
+      {
+        "episode": 211,
+        "score": 22,
+        "seconds": 7.3,
+        "hits": 3,
+        "epsilon": 0.261
+      },
+      {
+        "episode": 212,
+        "score": 113,
+        "seconds": 24.5,
+        "hits": 3,
+        "epsilon": 0.258
+      },
+      {
+        "episode": 213,
+        "score": 61,
+        "seconds": 15.2,
+        "hits": 3,
+        "epsilon": 0.254
+      },
+      {
+        "episode": 214,
+        "score": 151,
+        "seconds": 32.2,
+        "hits": 3,
+        "epsilon": 0.251
+      },
+      {
+        "episode": 215,
+        "score": 61,
+        "seconds": 15.8,
+        "hits": 3,
+        "epsilon": 0.248
+      },
+      {
+        "episode": 216,
+        "score": 17,
+        "seconds": 6.7,
+        "hits": 3,
+        "epsilon": 0.244
+      },
+      {
+        "episode": 217,
+        "score": 234,
+        "seconds": 45.6,
+        "hits": 3,
+        "epsilon": 0.241
+      },
+      {
+        "episode": 218,
+        "score": 12,
+        "seconds": 6.6,
+        "hits": 3,
+        "epsilon": 0.237
+      },
+      {
+        "episode": 219,
+        "score": 142,
+        "seconds": 29.8,
+        "hits": 3,
+        "epsilon": 0.233
+      },
+      {
+        "episode": 220,
+        "score": 46,
+        "seconds": 11.8,
+        "hits": 3,
+        "epsilon": 0.23
+      },
+      {
+        "episode": 221,
+        "score": 19,
+        "seconds": 7.2,
+        "hits": 3,
+        "epsilon": 0.227
+      },
+      {
+        "episode": 222,
+        "score": 304,
+        "seconds": 58.6,
+        "hits": 3,
+        "epsilon": 0.223
+      },
+      {
+        "episode": 223,
+        "score": 155,
+        "seconds": 31.5,
+        "hits": 3,
+        "epsilon": 0.22
+      },
+      {
+        "episode": 224,
+        "score": 37,
+        "seconds": 12.2,
+        "hits": 3,
+        "epsilon": 0.216
+      },
+      {
+        "episode": 225,
+        "score": 504,
+        "seconds": 93.4,
+        "hits": 3,
+        "epsilon": 0.213
+      },
+      {
+        "episode": 226,
+        "score": 154,
+        "seconds": 31.9,
+        "hits": 3,
+        "epsilon": 0.209
+      },
+      {
+        "episode": 227,
+        "score": 256,
+        "seconds": 49.4,
+        "hits": 3,
+        "epsilon": 0.206
+      },
+      {
+        "episode": 228,
+        "score": 160,
+        "seconds": 33.7,
+        "hits": 3,
+        "epsilon": 0.202
+      },
+      {
+        "episode": 229,
+        "score": 169,
+        "seconds": 35.0,
+        "hits": 3,
+        "epsilon": 0.199
+      },
+      {
+        "episode": 230,
+        "score": 166,
+        "seconds": 35.5,
+        "hits": 3,
+        "epsilon": 0.195
+      },
+      {
+        "episode": 231,
+        "score": 525,
+        "seconds": 98.3,
+        "hits": 3,
+        "epsilon": 0.192
+      },
+      {
+        "episode": 232,
+        "score": 356,
+        "seconds": 67.7,
+        "hits": 3,
+        "epsilon": 0.188
+      },
+      {
+        "episode": 233,
+        "score": 318,
+        "seconds": 60.3,
+        "hits": 3,
+        "epsilon": 0.184
+      },
+      {
+        "episode": 234,
+        "score": 70,
+        "seconds": 17.2,
+        "hits": 3,
+        "epsilon": 0.181
+      },
+      {
+        "episode": 235,
+        "score": 204,
+        "seconds": 43.7,
+        "hits": 3,
+        "epsilon": 0.178
+      },
+      {
+        "episode": 236,
+        "score": 79,
+        "seconds": 18.3,
+        "hits": 3,
+        "epsilon": 0.174
+      },
+      {
+        "episode": 237,
+        "score": 13,
+        "seconds": 6.9,
+        "hits": 3,
+        "epsilon": 0.17
+      },
+      {
+        "episode": 238,
+        "score": 178,
+        "seconds": 36.1,
+        "hits": 3,
+        "epsilon": 0.167
+      },
+      {
+        "episode": 239,
+        "score": 505,
+        "seconds": 93.0,
+        "hits": 3,
+        "epsilon": 0.163
+      },
+      {
+        "episode": 240,
+        "score": 309,
+        "seconds": 58.3,
+        "hits": 3,
+        "epsilon": 0.16
+      },
+      {
+        "episode": 241,
+        "score": 284,
+        "seconds": 53.5,
+        "hits": 3,
+        "epsilon": 0.156
+      },
+      {
+        "episode": 242,
+        "score": 42,
+        "seconds": 11.8,
+        "hits": 3,
+        "epsilon": 0.153
+      },
+      {
+        "episode": 243,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.15
+      },
+      {
+        "episode": 244,
+        "score": 343,
+        "seconds": 64.2,
+        "hits": 3,
+        "epsilon": 0.146
+      },
+      {
+        "episode": 245,
+        "score": 184,
+        "seconds": 36.1,
+        "hits": 3,
+        "epsilon": 0.143
+      },
+      {
+        "episode": 246,
+        "score": 402,
+        "seconds": 77.0,
+        "hits": 3,
+        "epsilon": 0.139
+      },
+      {
+        "episode": 247,
+        "score": 268,
+        "seconds": 52.1,
+        "hits": 3,
+        "epsilon": 0.135
+      },
+      {
+        "episode": 248,
+        "score": 356,
+        "seconds": 68.2,
+        "hits": 3,
+        "epsilon": 0.132
+      },
+      {
+        "episode": 249,
+        "score": 287,
+        "seconds": 54.3,
+        "hits": 3,
+        "epsilon": 0.129
+      },
+      {
+        "episode": 250,
+        "score": 35,
+        "seconds": 10.8,
+        "hits": 3,
+        "epsilon": 0.125
+      },
+      {
+        "episode": 251,
+        "score": 49,
+        "seconds": 13.1,
+        "hits": 3,
+        "epsilon": 0.122
+      },
+      {
+        "episode": 252,
+        "score": 196,
+        "seconds": 38.9,
+        "hits": 3,
+        "epsilon": 0.118
+      },
+      {
+        "episode": 253,
+        "score": 273,
+        "seconds": 52.1,
+        "hits": 3,
+        "epsilon": 0.115
+      },
+      {
+        "episode": 254,
+        "score": 232,
+        "seconds": 44.5,
+        "hits": 3,
+        "epsilon": 0.111
+      },
+      {
+        "episode": 255,
+        "score": 367,
+        "seconds": 69.4,
+        "hits": 3,
+        "epsilon": 0.107
+      },
+      {
+        "episode": 256,
+        "score": 206,
+        "seconds": 41.4,
+        "hits": 3,
+        "epsilon": 0.104
+      },
+      {
+        "episode": 257,
+        "score": 110,
+        "seconds": 23.1,
+        "hits": 3,
+        "epsilon": 0.101
+      },
+      {
+        "episode": 258,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.097
+      },
+      {
+        "episode": 259,
+        "score": 384,
+        "seconds": 74.3,
+        "hits": 3,
+        "epsilon": 0.094
+      },
+      {
+        "episode": 260,
+        "score": 231,
+        "seconds": 45.4,
+        "hits": 3,
+        "epsilon": 0.09
+      },
+      {
+        "episode": 261,
+        "score": 206,
+        "seconds": 41.0,
+        "hits": 3,
+        "epsilon": 0.087
+      },
+      {
+        "episode": 262,
+        "score": 197,
+        "seconds": 38.2,
+        "hits": 3,
+        "epsilon": 0.083
+      },
+      {
+        "episode": 263,
+        "score": 537,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.08
+      },
+      {
+        "episode": 264,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.076
+      },
+      {
+        "episode": 265,
+        "score": 534,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.073
+      },
+      {
+        "episode": 266,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.069
+      },
+      {
+        "episode": 267,
+        "score": 239,
+        "seconds": 46.8,
+        "hits": 3,
+        "epsilon": 0.066
+      },
+      {
+        "episode": 268,
+        "score": 397,
+        "seconds": 74.8,
+        "hits": 3,
+        "epsilon": 0.062
+      },
+      {
+        "episode": 269,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.058
+      },
+      {
+        "episode": 270,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.055
+      },
+      {
+        "episode": 271,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.052
+      },
+      {
+        "episode": 272,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.048
+      },
+      {
+        "episode": 273,
+        "score": 306,
+        "seconds": 58.2,
+        "hits": 3,
+        "epsilon": 0.044
+      },
+      {
+        "episode": 274,
+        "score": 558,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.041
+      },
+      {
+        "episode": 275,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.037
+      },
+      {
+        "episode": 276,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.034
+      },
+      {
+        "episode": 277,
+        "score": 540,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.031
+      },
+      {
+        "episode": 278,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.027
+      },
+      {
+        "episode": 279,
+        "score": 123,
+        "seconds": 25.5,
+        "hits": 3,
+        "epsilon": 0.023
+      },
+      {
+        "episode": 280,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 281,
+        "score": 563,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 282,
+        "score": 531,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 283,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 284,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 285,
+        "score": 512,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 286,
+        "score": 149,
+        "seconds": 29.8,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 287,
+        "score": 135,
+        "seconds": 29.2,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 288,
+        "score": 395,
+        "seconds": 78.3,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 289,
+        "score": 425,
+        "seconds": 79.1,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 290,
+        "score": 531,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 291,
+        "score": 559,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 292,
+        "score": 566,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 293,
+        "score": 551,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 294,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 295,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 296,
+        "score": 537,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 297,
+        "score": 532,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 298,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 299,
+        "score": 181,
+        "seconds": 36.6,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 300,
+        "score": 275,
+        "seconds": 53.6,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 301,
+        "score": 506,
+        "seconds": 95.3,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 302,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 303,
+        "score": 567,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 304,
+        "score": 537,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 305,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 306,
+        "score": 348,
+        "seconds": 68.1,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 307,
+        "score": 209,
+        "seconds": 41.9,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 308,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 309,
+        "score": 531,
+        "seconds": 97.4,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 310,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 311,
+        "score": 554,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 312,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 313,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 314,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 315,
+        "score": 536,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 316,
+        "score": 419,
+        "seconds": 76.3,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 317,
+        "score": 565,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 318,
+        "score": 558,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 319,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 320,
+        "score": 557,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 321,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 322,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 323,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 324,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 325,
+        "score": 196,
+        "seconds": 38.9,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 326,
+        "score": 274,
+        "seconds": 55.1,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 327,
+        "score": 201,
+        "seconds": 40.7,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 328,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 329,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 330,
+        "score": 536,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 331,
+        "score": 285,
+        "seconds": 56.6,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 332,
+        "score": 563,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 333,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 334,
+        "score": 526,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 335,
+        "score": 552,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 336,
+        "score": 115,
+        "seconds": 23.8,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 337,
+        "score": 54,
+        "seconds": 14.4,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 338,
+        "score": 538,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 339,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 340,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 341,
+        "score": 540,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 342,
+        "score": 534,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 343,
+        "score": 441,
+        "seconds": 82.7,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 344,
+        "score": 382,
+        "seconds": 71.1,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 345,
+        "score": 557,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 346,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 347,
+        "score": 532,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 348,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 349,
+        "score": 532,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 350,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 351,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 352,
+        "score": 317,
+        "seconds": 60.4,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 353,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 354,
+        "score": 567,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 355,
+        "score": 533,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 356,
+        "score": 247,
+        "seconds": 47.5,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 357,
+        "score": 563,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 358,
+        "score": 329,
+        "seconds": 61.5,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 359,
+        "score": 344,
+        "seconds": 65.7,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 360,
+        "score": 531,
+        "seconds": 97.0,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 361,
+        "score": 36,
+        "seconds": 11.1,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 362,
+        "score": 74,
+        "seconds": 17.1,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 363,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 364,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 365,
+        "score": 559,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 366,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 367,
+        "score": 540,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 368,
+        "score": 535,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 369,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 370,
+        "score": 186,
+        "seconds": 36.8,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 371,
+        "score": 537,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 372,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 373,
+        "score": 559,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 374,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 375,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 376,
+        "score": 104,
+        "seconds": 23.8,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 377,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 378,
+        "score": 247,
+        "seconds": 49.8,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 379,
+        "score": 536,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 380,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 381,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 382,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 383,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 384,
+        "score": 321,
+        "seconds": 62.6,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 385,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 386,
+        "score": 557,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 387,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 388,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 389,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 390,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 391,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 392,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 393,
+        "score": 564,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 394,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 395,
+        "score": 551,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 396,
+        "score": 538,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 397,
+        "score": 372,
+        "seconds": 70.9,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 398,
+        "score": 552,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 399,
+        "score": 567,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      }
+    ],
+    "pixels": [
+      {
+        "episode": 0,
+        "score": 9,
+        "seconds": 6.0,
+        "hits": 3,
+        "epsilon": 1.0
+      },
+      {
+        "episode": 1,
+        "score": 4,
+        "seconds": 5.1,
+        "hits": 3,
+        "epsilon": 0.997
+      },
+      {
+        "episode": 2,
+        "score": 41,
+        "seconds": 11.5,
+        "hits": 3,
+        "epsilon": 0.993
+      },
+      {
+        "episode": 3,
+        "score": 8,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.99
+      },
+      {
+        "episode": 4,
+        "score": 0,
+        "seconds": 4.4,
+        "hits": 3,
+        "epsilon": 0.986
+      },
+      {
+        "episode": 5,
+        "score": 29,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.983
+      },
+      {
+        "episode": 6,
+        "score": 12,
+        "seconds": 6.4,
+        "hits": 3,
+        "epsilon": 0.979
+      },
+      {
+        "episode": 7,
+        "score": 13,
+        "seconds": 6.6,
+        "hits": 3,
+        "epsilon": 0.976
+      },
+      {
+        "episode": 8,
+        "score": 16,
+        "seconds": 7.3,
+        "hits": 3,
+        "epsilon": 0.972
+      },
+      {
+        "episode": 9,
+        "score": 5,
+        "seconds": 4.5,
+        "hits": 3,
+        "epsilon": 0.969
+      },
+      {
+        "episode": 10,
+        "score": 23,
+        "seconds": 8.1,
+        "hits": 3,
+        "epsilon": 0.965
+      },
+      {
+        "episode": 11,
+        "score": 22,
+        "seconds": 7.2,
+        "hits": 3,
+        "epsilon": 0.962
+      },
+      {
+        "episode": 12,
+        "score": 4,
+        "seconds": 4.9,
+        "hits": 3,
+        "epsilon": 0.958
+      },
+      {
+        "episode": 13,
+        "score": 2,
+        "seconds": 4.8,
+        "hits": 3,
+        "epsilon": 0.955
+      },
+      {
+        "episode": 14,
+        "score": 14,
+        "seconds": 6.2,
+        "hits": 3,
+        "epsilon": 0.951
+      },
+      {
+        "episode": 15,
+        "score": 14,
+        "seconds": 7.0,
+        "hits": 3,
+        "epsilon": 0.948
+      },
+      {
+        "episode": 16,
+        "score": 29,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.944
+      },
+      {
+        "episode": 17,
+        "score": 2,
+        "seconds": 4.8,
+        "hits": 3,
+        "epsilon": 0.941
+      },
+      {
+        "episode": 18,
+        "score": 18,
+        "seconds": 7.9,
+        "hits": 3,
+        "epsilon": 0.937
+      },
+      {
+        "episode": 19,
+        "score": 55,
+        "seconds": 14.5,
+        "hits": 3,
+        "epsilon": 0.933
+      },
+      {
+        "episode": 20,
+        "score": 13,
+        "seconds": 6.2,
+        "hits": 3,
+        "epsilon": 0.93
+      },
+      {
+        "episode": 21,
+        "score": 25,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.926
+      },
+      {
+        "episode": 22,
+        "score": 33,
+        "seconds": 10.2,
+        "hits": 3,
+        "epsilon": 0.923
+      },
+      {
+        "episode": 23,
+        "score": 21,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.919
+      },
+      {
+        "episode": 24,
+        "score": 41,
+        "seconds": 11.5,
+        "hits": 3,
+        "epsilon": 0.916
+      },
+      {
+        "episode": 25,
+        "score": 21,
+        "seconds": 8.2,
+        "hits": 3,
+        "epsilon": 0.912
+      },
+      {
+        "episode": 26,
+        "score": 2,
+        "seconds": 4.4,
+        "hits": 3,
+        "epsilon": 0.909
+      },
+      {
+        "episode": 27,
+        "score": 12,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.905
+      },
+      {
+        "episode": 28,
+        "score": 37,
+        "seconds": 10.0,
+        "hits": 3,
+        "epsilon": 0.902
+      },
+      {
+        "episode": 29,
+        "score": 18,
+        "seconds": 7.5,
+        "hits": 3,
+        "epsilon": 0.898
+      },
+      {
+        "episode": 30,
+        "score": 28,
+        "seconds": 9.1,
+        "hits": 3,
+        "epsilon": 0.895
+      },
+      {
+        "episode": 31,
+        "score": 10,
+        "seconds": 6.3,
+        "hits": 3,
+        "epsilon": 0.891
+      },
+      {
+        "episode": 32,
+        "score": 1,
+        "seconds": 4.7,
+        "hits": 3,
+        "epsilon": 0.888
+      },
+      {
+        "episode": 33,
+        "score": 13,
+        "seconds": 6.3,
+        "hits": 3,
+        "epsilon": 0.885
+      },
+      {
+        "episode": 34,
+        "score": 34,
+        "seconds": 10.2,
+        "hits": 3,
+        "epsilon": 0.881
+      },
+      {
+        "episode": 35,
+        "score": 28,
+        "seconds": 8.7,
+        "hits": 3,
+        "epsilon": 0.878
+      },
+      {
+        "episode": 36,
+        "score": 32,
+        "seconds": 9.9,
+        "hits": 3,
+        "epsilon": 0.874
+      },
+      {
+        "episode": 37,
+        "score": 31,
+        "seconds": 9.3,
+        "hits": 3,
+        "epsilon": 0.871
+      },
+      {
+        "episode": 38,
+        "score": 2,
+        "seconds": 5.0,
+        "hits": 3,
+        "epsilon": 0.867
+      },
+      {
+        "episode": 39,
+        "score": 25,
+        "seconds": 8.4,
+        "hits": 3,
+        "epsilon": 0.864
+      },
+      {
+        "episode": 40,
+        "score": 7,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.86
+      },
+      {
+        "episode": 41,
+        "score": 4,
+        "seconds": 5.1,
+        "hits": 3,
+        "epsilon": 0.857
+      },
+      {
+        "episode": 42,
+        "score": 6,
+        "seconds": 5.2,
+        "hits": 3,
+        "epsilon": 0.853
+      },
+      {
+        "episode": 43,
+        "score": 10,
+        "seconds": 6.2,
+        "hits": 3,
+        "epsilon": 0.85
+      },
+      {
+        "episode": 44,
+        "score": 9,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.846
+      },
+      {
+        "episode": 45,
+        "score": 17,
+        "seconds": 7.7,
+        "hits": 3,
+        "epsilon": 0.843
+      },
+      {
+        "episode": 46,
+        "score": 31,
+        "seconds": 8.7,
+        "hits": 3,
+        "epsilon": 0.839
+      },
+      {
+        "episode": 47,
+        "score": 14,
+        "seconds": 6.6,
+        "hits": 3,
+        "epsilon": 0.836
+      },
+      {
+        "episode": 48,
+        "score": 43,
+        "seconds": 11.6,
+        "hits": 3,
+        "epsilon": 0.832
+      },
+      {
+        "episode": 49,
+        "score": 12,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.829
+      },
+      {
+        "episode": 50,
+        "score": 1,
+        "seconds": 4.6,
+        "hits": 3,
+        "epsilon": 0.825
+      },
+      {
+        "episode": 51,
+        "score": 4,
+        "seconds": 4.9,
+        "hits": 3,
+        "epsilon": 0.822
+      },
+      {
+        "episode": 52,
+        "score": 3,
+        "seconds": 5.1,
+        "hits": 3,
+        "epsilon": 0.818
+      },
+      {
+        "episode": 53,
+        "score": 53,
+        "seconds": 13.8,
+        "hits": 3,
+        "epsilon": 0.815
+      },
+      {
+        "episode": 54,
+        "score": 61,
+        "seconds": 15.3,
+        "hits": 3,
+        "epsilon": 0.811
+      },
+      {
+        "episode": 55,
+        "score": 47,
+        "seconds": 12.8,
+        "hits": 3,
+        "epsilon": 0.807
+      },
+      {
+        "episode": 56,
+        "score": 17,
+        "seconds": 7.8,
+        "hits": 3,
+        "epsilon": 0.804
+      },
+      {
+        "episode": 57,
+        "score": 24,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.8
+      },
+      {
+        "episode": 58,
+        "score": 24,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.797
+      },
+      {
+        "episode": 59,
+        "score": 18,
+        "seconds": 6.8,
+        "hits": 3,
+        "epsilon": 0.793
+      },
+      {
+        "episode": 60,
+        "score": 20,
+        "seconds": 8.2,
+        "hits": 3,
+        "epsilon": 0.79
+      },
+      {
+        "episode": 61,
+        "score": 28,
+        "seconds": 9.5,
+        "hits": 3,
+        "epsilon": 0.786
+      },
+      {
+        "episode": 62,
+        "score": 1,
+        "seconds": 4.6,
+        "hits": 3,
+        "epsilon": 0.783
+      },
+      {
+        "episode": 63,
+        "score": 21,
+        "seconds": 8.2,
+        "hits": 3,
+        "epsilon": 0.779
+      },
+      {
+        "episode": 64,
+        "score": 16,
+        "seconds": 6.6,
+        "hits": 3,
+        "epsilon": 0.776
+      },
+      {
+        "episode": 65,
+        "score": 29,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.772
+      },
+      {
+        "episode": 66,
+        "score": 5,
+        "seconds": 5.9,
+        "hits": 3,
+        "epsilon": 0.769
+      },
+      {
+        "episode": 67,
+        "score": 39,
+        "seconds": 11.6,
+        "hits": 3,
+        "epsilon": 0.766
+      },
+      {
+        "episode": 68,
+        "score": 24,
+        "seconds": 8.2,
+        "hits": 3,
+        "epsilon": 0.762
+      },
+      {
+        "episode": 69,
+        "score": 54,
+        "seconds": 13.8,
+        "hits": 3,
+        "epsilon": 0.758
+      },
+      {
+        "episode": 70,
+        "score": 36,
+        "seconds": 11.7,
+        "hits": 3,
+        "epsilon": 0.755
+      },
+      {
+        "episode": 71,
+        "score": 38,
+        "seconds": 10.4,
+        "hits": 3,
+        "epsilon": 0.752
+      },
+      {
+        "episode": 72,
+        "score": 41,
+        "seconds": 11.6,
+        "hits": 3,
+        "epsilon": 0.748
+      },
+      {
+        "episode": 73,
+        "score": 17,
+        "seconds": 6.1,
+        "hits": 3,
+        "epsilon": 0.745
+      },
+      {
+        "episode": 74,
+        "score": 25,
+        "seconds": 8.4,
+        "hits": 3,
+        "epsilon": 0.741
+      },
+      {
+        "episode": 75,
+        "score": 5,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.738
+      },
+      {
+        "episode": 76,
+        "score": 9,
+        "seconds": 5.9,
+        "hits": 3,
+        "epsilon": 0.734
+      },
+      {
+        "episode": 77,
+        "score": 15,
+        "seconds": 7.0,
+        "hits": 3,
+        "epsilon": 0.731
+      },
+      {
+        "episode": 78,
+        "score": 20,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.727
+      },
+      {
+        "episode": 79,
+        "score": 38,
+        "seconds": 11.2,
+        "hits": 3,
+        "epsilon": 0.724
+      },
+      {
+        "episode": 80,
+        "score": 46,
+        "seconds": 13.8,
+        "hits": 3,
+        "epsilon": 0.72
+      },
+      {
+        "episode": 81,
+        "score": 16,
+        "seconds": 7.0,
+        "hits": 3,
+        "epsilon": 0.717
+      },
+      {
+        "episode": 82,
+        "score": 45,
+        "seconds": 12.0,
+        "hits": 3,
+        "epsilon": 0.713
+      },
+      {
+        "episode": 83,
+        "score": 15,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.71
+      },
+      {
+        "episode": 84,
+        "score": 23,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.706
+      },
+      {
+        "episode": 85,
+        "score": 23,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.703
+      },
+      {
+        "episode": 86,
+        "score": 14,
+        "seconds": 7.0,
+        "hits": 3,
+        "epsilon": 0.699
+      },
+      {
+        "episode": 87,
+        "score": 27,
+        "seconds": 9.2,
+        "hits": 3,
+        "epsilon": 0.696
+      },
+      {
+        "episode": 88,
+        "score": 10,
+        "seconds": 5.9,
+        "hits": 3,
+        "epsilon": 0.692
+      },
+      {
+        "episode": 89,
+        "score": 64,
+        "seconds": 14.2,
+        "hits": 3,
+        "epsilon": 0.689
+      },
+      {
+        "episode": 90,
+        "score": 11,
+        "seconds": 6.7,
+        "hits": 3,
+        "epsilon": 0.685
+      },
+      {
+        "episode": 91,
+        "score": 53,
+        "seconds": 13.2,
+        "hits": 3,
+        "epsilon": 0.681
+      },
+      {
+        "episode": 92,
+        "score": 31,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.678
+      },
+      {
+        "episode": 93,
+        "score": 88,
+        "seconds": 21.0,
+        "hits": 3,
+        "epsilon": 0.674
+      },
+      {
+        "episode": 94,
+        "score": 1,
+        "seconds": 4.8,
+        "hits": 3,
+        "epsilon": 0.671
+      },
+      {
+        "episode": 95,
+        "score": 43,
+        "seconds": 13.2,
+        "hits": 3,
+        "epsilon": 0.667
+      },
+      {
+        "episode": 96,
+        "score": 7,
+        "seconds": 5.2,
+        "hits": 3,
+        "epsilon": 0.664
+      },
+      {
+        "episode": 97,
+        "score": 29,
+        "seconds": 9.8,
+        "hits": 3,
+        "epsilon": 0.66
+      },
+      {
+        "episode": 98,
+        "score": 6,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.657
+      },
+      {
+        "episode": 99,
+        "score": 53,
+        "seconds": 13.2,
+        "hits": 3,
+        "epsilon": 0.653
+      },
+      {
+        "episode": 100,
+        "score": 56,
+        "seconds": 13.5,
+        "hits": 3,
+        "epsilon": 0.65
+      },
+      {
+        "episode": 101,
+        "score": 38,
+        "seconds": 11.2,
+        "hits": 3,
+        "epsilon": 0.646
+      },
+      {
+        "episode": 102,
+        "score": 43,
+        "seconds": 12.2,
+        "hits": 3,
+        "epsilon": 0.643
+      },
+      {
+        "episode": 103,
+        "score": 18,
+        "seconds": 8.0,
+        "hits": 3,
+        "epsilon": 0.639
+      },
+      {
+        "episode": 104,
+        "score": 46,
+        "seconds": 11.8,
+        "hits": 3,
+        "epsilon": 0.636
+      },
+      {
+        "episode": 105,
+        "score": 28,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.633
+      },
+      {
+        "episode": 106,
+        "score": 60,
+        "seconds": 15.4,
+        "hits": 3,
+        "epsilon": 0.629
+      },
+      {
+        "episode": 107,
+        "score": 33,
+        "seconds": 10.8,
+        "hits": 3,
+        "epsilon": 0.625
+      },
+      {
+        "episode": 108,
+        "score": 29,
+        "seconds": 9.3,
+        "hits": 3,
+        "epsilon": 0.622
+      },
+      {
+        "episode": 109,
+        "score": 25,
+        "seconds": 9.3,
+        "hits": 3,
+        "epsilon": 0.619
+      },
+      {
+        "episode": 110,
+        "score": 27,
+        "seconds": 9.2,
+        "hits": 3,
+        "epsilon": 0.615
+      },
+      {
+        "episode": 111,
+        "score": 46,
+        "seconds": 12.6,
+        "hits": 3,
+        "epsilon": 0.611
+      },
+      {
+        "episode": 112,
+        "score": 79,
+        "seconds": 17.4,
+        "hits": 3,
+        "epsilon": 0.608
+      },
+      {
+        "episode": 113,
+        "score": 35,
+        "seconds": 9.9,
+        "hits": 3,
+        "epsilon": 0.605
+      },
+      {
+        "episode": 114,
+        "score": 57,
+        "seconds": 14.6,
+        "hits": 3,
+        "epsilon": 0.601
+      },
+      {
+        "episode": 115,
+        "score": 12,
+        "seconds": 5.7,
+        "hits": 3,
+        "epsilon": 0.597
+      },
+      {
+        "episode": 116,
+        "score": 85,
+        "seconds": 19.5,
+        "hits": 3,
+        "epsilon": 0.594
+      },
+      {
+        "episode": 117,
+        "score": 19,
+        "seconds": 7.7,
+        "hits": 3,
+        "epsilon": 0.591
+      },
+      {
+        "episode": 118,
+        "score": 66,
+        "seconds": 15.9,
+        "hits": 3,
+        "epsilon": 0.587
+      },
+      {
+        "episode": 119,
+        "score": 42,
+        "seconds": 11.6,
+        "hits": 3,
+        "epsilon": 0.583
+      },
+      {
+        "episode": 120,
+        "score": 63,
+        "seconds": 14.3,
+        "hits": 3,
+        "epsilon": 0.58
+      },
+      {
+        "episode": 121,
+        "score": 7,
+        "seconds": 5.0,
+        "hits": 3,
+        "epsilon": 0.577
+      },
+      {
+        "episode": 122,
+        "score": 90,
+        "seconds": 21.4,
+        "hits": 3,
+        "epsilon": 0.573
+      },
+      {
+        "episode": 123,
+        "score": 75,
+        "seconds": 18.0,
+        "hits": 3,
+        "epsilon": 0.57
+      },
+      {
+        "episode": 124,
+        "score": 30,
+        "seconds": 10.7,
+        "hits": 3,
+        "epsilon": 0.566
+      },
+      {
+        "episode": 125,
+        "score": 24,
+        "seconds": 8.3,
+        "hits": 3,
+        "epsilon": 0.562
+      },
+      {
+        "episode": 126,
+        "score": 35,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.559
+      },
+      {
+        "episode": 127,
+        "score": 20,
+        "seconds": 8.0,
+        "hits": 3,
+        "epsilon": 0.556
+      },
+      {
+        "episode": 128,
+        "score": 34,
+        "seconds": 9.4,
+        "hits": 3,
+        "epsilon": 0.552
+      },
+      {
+        "episode": 129,
+        "score": 89,
+        "seconds": 19.4,
+        "hits": 3,
+        "epsilon": 0.548
+      },
+      {
+        "episode": 130,
+        "score": 52,
+        "seconds": 13.4,
+        "hits": 3,
+        "epsilon": 0.545
+      },
+      {
+        "episode": 131,
+        "score": 22,
+        "seconds": 7.5,
+        "hits": 3,
+        "epsilon": 0.542
+      },
+      {
+        "episode": 132,
+        "score": 71,
+        "seconds": 16.3,
+        "hits": 3,
+        "epsilon": 0.538
+      },
+      {
+        "episode": 133,
+        "score": 68,
+        "seconds": 16.7,
+        "hits": 3,
+        "epsilon": 0.534
+      },
+      {
+        "episode": 134,
+        "score": 30,
+        "seconds": 9.6,
+        "hits": 3,
+        "epsilon": 0.531
+      },
+      {
+        "episode": 135,
+        "score": 63,
+        "seconds": 16.0,
+        "hits": 3,
+        "epsilon": 0.527
+      },
+      {
+        "episode": 136,
+        "score": 82,
+        "seconds": 19.7,
+        "hits": 3,
+        "epsilon": 0.524
+      },
+      {
+        "episode": 137,
+        "score": 93,
+        "seconds": 20.9,
+        "hits": 3,
+        "epsilon": 0.52
+      },
+      {
+        "episode": 138,
+        "score": 96,
+        "seconds": 21.2,
+        "hits": 3,
+        "epsilon": 0.517
+      },
+      {
+        "episode": 139,
+        "score": 49,
+        "seconds": 13.0,
+        "hits": 3,
+        "epsilon": 0.514
+      },
+      {
+        "episode": 140,
+        "score": 145,
+        "seconds": 30.4,
+        "hits": 3,
+        "epsilon": 0.51
+      },
+      {
+        "episode": 141,
+        "score": 25,
+        "seconds": 8.9,
+        "hits": 3,
+        "epsilon": 0.506
+      },
+      {
+        "episode": 142,
+        "score": 27,
+        "seconds": 9.2,
+        "hits": 3,
+        "epsilon": 0.503
+      },
+      {
+        "episode": 143,
+        "score": 24,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.5
+      },
+      {
+        "episode": 144,
+        "score": 28,
+        "seconds": 9.1,
+        "hits": 3,
+        "epsilon": 0.496
+      },
+      {
+        "episode": 145,
+        "score": 44,
+        "seconds": 12.7,
+        "hits": 3,
+        "epsilon": 0.493
+      },
+      {
+        "episode": 146,
+        "score": 21,
+        "seconds": 7.8,
+        "hits": 3,
+        "epsilon": 0.489
+      },
+      {
+        "episode": 147,
+        "score": 12,
+        "seconds": 6.4,
+        "hits": 3,
+        "epsilon": 0.486
+      },
+      {
+        "episode": 148,
+        "score": 70,
+        "seconds": 16.8,
+        "hits": 3,
+        "epsilon": 0.482
+      },
+      {
+        "episode": 149,
+        "score": 117,
+        "seconds": 27.1,
+        "hits": 3,
+        "epsilon": 0.478
+      },
+      {
+        "episode": 150,
+        "score": 119,
+        "seconds": 26.0,
+        "hits": 3,
+        "epsilon": 0.475
+      },
+      {
+        "episode": 151,
+        "score": 46,
+        "seconds": 12.3,
+        "hits": 3,
+        "epsilon": 0.472
+      },
+      {
+        "episode": 152,
+        "score": 156,
+        "seconds": 32.3,
+        "hits": 3,
+        "epsilon": 0.468
+      },
+      {
+        "episode": 153,
+        "score": 69,
+        "seconds": 16.5,
+        "hits": 3,
+        "epsilon": 0.465
+      },
+      {
+        "episode": 154,
+        "score": 175,
+        "seconds": 35.7,
+        "hits": 3,
+        "epsilon": 0.461
+      },
+      {
+        "episode": 155,
+        "score": 60,
+        "seconds": 15.3,
+        "hits": 3,
+        "epsilon": 0.458
+      },
+      {
+        "episode": 156,
+        "score": 48,
+        "seconds": 13.9,
+        "hits": 3,
+        "epsilon": 0.454
+      },
+      {
+        "episode": 157,
+        "score": 53,
+        "seconds": 13.7,
+        "hits": 3,
+        "epsilon": 0.451
+      },
+      {
+        "episode": 158,
+        "score": 18,
+        "seconds": 7.3,
+        "hits": 3,
+        "epsilon": 0.447
+      },
+      {
+        "episode": 159,
+        "score": 55,
+        "seconds": 14.4,
+        "hits": 3,
+        "epsilon": 0.444
+      },
+      {
+        "episode": 160,
+        "score": 96,
+        "seconds": 21.4,
+        "hits": 3,
+        "epsilon": 0.44
+      },
+      {
+        "episode": 161,
+        "score": 53,
+        "seconds": 13.2,
+        "hits": 3,
+        "epsilon": 0.436
+      },
+      {
+        "episode": 162,
+        "score": 44,
+        "seconds": 12.8,
+        "hits": 3,
+        "epsilon": 0.433
+      },
+      {
+        "episode": 163,
+        "score": 92,
+        "seconds": 19.9,
+        "hits": 3,
+        "epsilon": 0.429
+      },
+      {
+        "episode": 164,
+        "score": 39,
+        "seconds": 11.3,
+        "hits": 3,
+        "epsilon": 0.426
+      },
+      {
+        "episode": 165,
+        "score": 57,
+        "seconds": 14.7,
+        "hits": 3,
+        "epsilon": 0.422
+      },
+      {
+        "episode": 166,
+        "score": 44,
+        "seconds": 12.5,
+        "hits": 3,
+        "epsilon": 0.419
+      },
+      {
+        "episode": 167,
+        "score": 40,
+        "seconds": 10.6,
+        "hits": 3,
+        "epsilon": 0.415
+      },
+      {
+        "episode": 168,
+        "score": 85,
+        "seconds": 19.3,
+        "hits": 3,
+        "epsilon": 0.412
+      },
+      {
+        "episode": 169,
+        "score": 17,
+        "seconds": 6.9,
+        "hits": 3,
+        "epsilon": 0.408
+      },
+      {
+        "episode": 170,
+        "score": 90,
+        "seconds": 19.9,
+        "hits": 3,
+        "epsilon": 0.405
+      },
+      {
+        "episode": 171,
+        "score": 46,
+        "seconds": 11.6,
+        "hits": 3,
+        "epsilon": 0.402
+      },
+      {
+        "episode": 172,
+        "score": 65,
+        "seconds": 15.1,
+        "hits": 3,
+        "epsilon": 0.398
+      },
+      {
+        "episode": 173,
+        "score": 124,
+        "seconds": 28.5,
+        "hits": 3,
+        "epsilon": 0.395
+      },
+      {
+        "episode": 174,
+        "score": 73,
+        "seconds": 17.6,
+        "hits": 3,
+        "epsilon": 0.391
+      },
+      {
+        "episode": 175,
+        "score": 141,
+        "seconds": 28.3,
+        "hits": 3,
+        "epsilon": 0.387
+      },
+      {
+        "episode": 176,
+        "score": 42,
+        "seconds": 12.0,
+        "hits": 3,
+        "epsilon": 0.384
+      },
+      {
+        "episode": 177,
+        "score": 151,
+        "seconds": 30.8,
+        "hits": 3,
+        "epsilon": 0.38
+      },
+      {
+        "episode": 178,
+        "score": 24,
+        "seconds": 8.3,
+        "hits": 3,
+        "epsilon": 0.377
+      },
+      {
+        "episode": 179,
+        "score": 263,
+        "seconds": 52.0,
+        "hits": 3,
+        "epsilon": 0.374
+      },
+      {
+        "episode": 180,
+        "score": 107,
+        "seconds": 22.9,
+        "hits": 3,
+        "epsilon": 0.37
+      },
+      {
+        "episode": 181,
+        "score": 55,
+        "seconds": 14.3,
+        "hits": 3,
+        "epsilon": 0.367
+      },
+      {
+        "episode": 182,
+        "score": 5,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.363
+      },
+      {
+        "episode": 183,
+        "score": 110,
+        "seconds": 24.8,
+        "hits": 3,
+        "epsilon": 0.36
+      },
+      {
+        "episode": 184,
+        "score": 137,
+        "seconds": 28.2,
+        "hits": 3,
+        "epsilon": 0.356
+      },
+      {
+        "episode": 185,
+        "score": 33,
+        "seconds": 10.5,
+        "hits": 3,
+        "epsilon": 0.353
+      },
+      {
+        "episode": 186,
+        "score": 216,
+        "seconds": 42.8,
+        "hits": 3,
+        "epsilon": 0.349
+      },
+      {
+        "episode": 187,
+        "score": 56,
+        "seconds": 13.6,
+        "hits": 3,
+        "epsilon": 0.346
+      },
+      {
+        "episode": 188,
+        "score": 361,
+        "seconds": 69.6,
+        "hits": 3,
+        "epsilon": 0.342
+      },
+      {
+        "episode": 189,
+        "score": 189,
+        "seconds": 37.7,
+        "hits": 3,
+        "epsilon": 0.339
+      },
+      {
+        "episode": 190,
+        "score": 135,
+        "seconds": 28.8,
+        "hits": 3,
+        "epsilon": 0.335
+      },
+      {
+        "episode": 191,
+        "score": 62,
+        "seconds": 15.2,
+        "hits": 3,
+        "epsilon": 0.332
+      },
+      {
+        "episode": 192,
+        "score": 79,
+        "seconds": 18.8,
+        "hits": 3,
+        "epsilon": 0.328
+      },
+      {
+        "episode": 193,
+        "score": 25,
+        "seconds": 9.2,
+        "hits": 3,
+        "epsilon": 0.325
+      },
+      {
+        "episode": 194,
+        "score": 339,
+        "seconds": 63.1,
+        "hits": 3,
+        "epsilon": 0.321
+      },
+      {
+        "episode": 195,
+        "score": 141,
+        "seconds": 29.6,
+        "hits": 3,
+        "epsilon": 0.318
+      },
+      {
+        "episode": 196,
+        "score": 276,
+        "seconds": 53.0,
+        "hits": 3,
+        "epsilon": 0.314
+      },
+      {
+        "episode": 197,
+        "score": 319,
+        "seconds": 60.9,
+        "hits": 3,
+        "epsilon": 0.31
+      },
+      {
+        "episode": 198,
+        "score": 154,
+        "seconds": 33.4,
+        "hits": 3,
+        "epsilon": 0.307
+      },
+      {
+        "episode": 199,
+        "score": 98,
+        "seconds": 21.3,
+        "hits": 3,
+        "epsilon": 0.303
+      },
+      {
+        "episode": 200,
+        "score": 311,
+        "seconds": 59.7,
+        "hits": 3,
+        "epsilon": 0.3
+      },
+      {
+        "episode": 201,
+        "score": 254,
+        "seconds": 50.5,
+        "hits": 3,
+        "epsilon": 0.296
+      },
+      {
+        "episode": 202,
+        "score": 43,
+        "seconds": 12.8,
+        "hits": 3,
+        "epsilon": 0.293
+      },
+      {
+        "episode": 203,
+        "score": 125,
+        "seconds": 26.9,
+        "hits": 3,
+        "epsilon": 0.289
+      },
+      {
+        "episode": 204,
+        "score": 76,
+        "seconds": 17.7,
+        "hits": 3,
+        "epsilon": 0.286
+      },
+      {
+        "episode": 205,
+        "score": 194,
+        "seconds": 38.0,
+        "hits": 3,
+        "epsilon": 0.282
+      },
+      {
+        "episode": 206,
+        "score": 90,
+        "seconds": 21.3,
+        "hits": 3,
+        "epsilon": 0.279
+      },
+      {
+        "episode": 207,
+        "score": 123,
+        "seconds": 26.3,
+        "hits": 3,
+        "epsilon": 0.276
+      },
+      {
+        "episode": 208,
+        "score": 217,
+        "seconds": 42.2,
+        "hits": 3,
+        "epsilon": 0.272
+      },
+      {
+        "episode": 209,
+        "score": 61,
+        "seconds": 14.8,
+        "hits": 3,
+        "epsilon": 0.269
+      },
+      {
+        "episode": 210,
+        "score": 208,
+        "seconds": 40.6,
+        "hits": 3,
+        "epsilon": 0.265
+      },
+      {
+        "episode": 211,
+        "score": 134,
+        "seconds": 27.8,
+        "hits": 3,
+        "epsilon": 0.261
+      },
+      {
+        "episode": 212,
+        "score": 112,
+        "seconds": 24.5,
+        "hits": 3,
+        "epsilon": 0.258
+      },
+      {
+        "episode": 213,
+        "score": 109,
+        "seconds": 23.2,
+        "hits": 3,
+        "epsilon": 0.254
+      },
+      {
+        "episode": 214,
+        "score": 322,
+        "seconds": 61.6,
+        "hits": 3,
+        "epsilon": 0.251
+      },
+      {
+        "episode": 215,
+        "score": 230,
+        "seconds": 46.0,
+        "hits": 3,
+        "epsilon": 0.248
+      },
+      {
+        "episode": 216,
+        "score": 88,
+        "seconds": 19.6,
+        "hits": 3,
+        "epsilon": 0.244
+      },
+      {
+        "episode": 217,
+        "score": 215,
+        "seconds": 42.1,
+        "hits": 3,
+        "epsilon": 0.241
+      },
+      {
+        "episode": 218,
+        "score": 167,
+        "seconds": 34.9,
+        "hits": 3,
+        "epsilon": 0.237
+      },
+      {
+        "episode": 219,
+        "score": 294,
+        "seconds": 57.1,
+        "hits": 3,
+        "epsilon": 0.233
+      },
+      {
+        "episode": 220,
+        "score": 13,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.23
+      },
+      {
+        "episode": 221,
+        "score": 154,
+        "seconds": 30.6,
+        "hits": 3,
+        "epsilon": 0.227
+      },
+      {
+        "episode": 222,
+        "score": 427,
+        "seconds": 82.1,
+        "hits": 3,
+        "epsilon": 0.223
+      },
+      {
+        "episode": 223,
+        "score": 404,
+        "seconds": 76.5,
+        "hits": 3,
+        "epsilon": 0.22
+      },
+      {
+        "episode": 224,
+        "score": 429,
+        "seconds": 81.9,
+        "hits": 3,
+        "epsilon": 0.216
+      },
+      {
+        "episode": 225,
+        "score": 264,
+        "seconds": 51.3,
+        "hits": 3,
+        "epsilon": 0.213
+      },
+      {
+        "episode": 226,
+        "score": 183,
+        "seconds": 36.5,
+        "hits": 3,
+        "epsilon": 0.209
+      },
+      {
+        "episode": 227,
+        "score": 79,
+        "seconds": 19.1,
+        "hits": 3,
+        "epsilon": 0.206
+      },
+      {
+        "episode": 228,
+        "score": 146,
+        "seconds": 30.4,
+        "hits": 3,
+        "epsilon": 0.202
+      },
+      {
+        "episode": 229,
+        "score": 421,
+        "seconds": 79.7,
+        "hits": 3,
+        "epsilon": 0.199
+      },
+      {
+        "episode": 230,
+        "score": 298,
+        "seconds": 58.2,
+        "hits": 3,
+        "epsilon": 0.195
+      },
+      {
+        "episode": 231,
+        "score": 330,
+        "seconds": 63.3,
+        "hits": 3,
+        "epsilon": 0.192
+      },
+      {
+        "episode": 232,
+        "score": 337,
+        "seconds": 63.7,
+        "hits": 3,
+        "epsilon": 0.188
+      },
+      {
+        "episode": 233,
+        "score": 52,
+        "seconds": 13.8,
+        "hits": 3,
+        "epsilon": 0.184
+      },
+      {
+        "episode": 234,
+        "score": 410,
+        "seconds": 76.4,
+        "hits": 3,
+        "epsilon": 0.181
+      },
+      {
+        "episode": 235,
+        "score": 181,
+        "seconds": 38.3,
+        "hits": 3,
+        "epsilon": 0.178
+      },
+      {
+        "episode": 236,
+        "score": 26,
+        "seconds": 9.1,
+        "hits": 3,
+        "epsilon": 0.174
+      },
+      {
+        "episode": 237,
+        "score": 108,
+        "seconds": 22.7,
+        "hits": 3,
+        "epsilon": 0.17
+      },
+      {
+        "episode": 238,
+        "score": 70,
+        "seconds": 16.8,
+        "hits": 3,
+        "epsilon": 0.167
+      },
+      {
+        "episode": 239,
+        "score": 423,
+        "seconds": 78.0,
+        "hits": 3,
+        "epsilon": 0.163
+      },
+      {
+        "episode": 240,
+        "score": 136,
+        "seconds": 28.8,
+        "hits": 3,
+        "epsilon": 0.16
+      },
+      {
+        "episode": 241,
+        "score": 145,
+        "seconds": 29.1,
+        "hits": 3,
+        "epsilon": 0.156
+      },
+      {
+        "episode": 242,
+        "score": 248,
+        "seconds": 48.8,
+        "hits": 3,
+        "epsilon": 0.153
+      },
+      {
+        "episode": 243,
+        "score": 378,
+        "seconds": 71.2,
+        "hits": 3,
+        "epsilon": 0.15
+      },
+      {
+        "episode": 244,
+        "score": 70,
+        "seconds": 16.6,
+        "hits": 3,
+        "epsilon": 0.146
+      },
+      {
+        "episode": 245,
+        "score": 401,
+        "seconds": 74.4,
+        "hits": 3,
+        "epsilon": 0.143
+      },
+      {
+        "episode": 246,
+        "score": 520,
+        "seconds": 96.5,
+        "hits": 3,
+        "epsilon": 0.139
+      },
+      {
+        "episode": 247,
+        "score": 306,
+        "seconds": 58.7,
+        "hits": 3,
+        "epsilon": 0.135
+      },
+      {
+        "episode": 248,
+        "score": 284,
+        "seconds": 54.8,
+        "hits": 3,
+        "epsilon": 0.132
+      },
+      {
+        "episode": 249,
+        "score": 448,
+        "seconds": 82.7,
+        "hits": 3,
+        "epsilon": 0.129
+      },
+      {
+        "episode": 250,
+        "score": 326,
+        "seconds": 62.6,
+        "hits": 3,
+        "epsilon": 0.125
+      },
+      {
+        "episode": 251,
+        "score": 271,
+        "seconds": 53.0,
+        "hits": 3,
+        "epsilon": 0.122
+      },
+      {
+        "episode": 252,
+        "score": 419,
+        "seconds": 78.8,
+        "hits": 3,
+        "epsilon": 0.118
+      },
+      {
+        "episode": 253,
+        "score": 455,
+        "seconds": 85.2,
+        "hits": 3,
+        "epsilon": 0.115
+      },
+      {
+        "episode": 254,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.111
+      },
+      {
+        "episode": 255,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.107
+      },
+      {
+        "episode": 256,
+        "score": 461,
+        "seconds": 86.9,
+        "hits": 3,
+        "epsilon": 0.104
+      },
+      {
+        "episode": 257,
+        "score": 209,
+        "seconds": 41.9,
+        "hits": 3,
+        "epsilon": 0.101
+      },
+      {
+        "episode": 258,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.097
+      },
+      {
+        "episode": 259,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.094
+      },
+      {
+        "episode": 260,
+        "score": 318,
+        "seconds": 60.2,
+        "hits": 3,
+        "epsilon": 0.09
+      },
+      {
+        "episode": 261,
+        "score": 315,
+        "seconds": 60.1,
+        "hits": 3,
+        "epsilon": 0.087
+      },
+      {
+        "episode": 262,
+        "score": 127,
+        "seconds": 26.3,
+        "hits": 3,
+        "epsilon": 0.083
+      },
+      {
+        "episode": 263,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.08
+      },
+      {
+        "episode": 264,
+        "score": 532,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.076
+      },
+      {
+        "episode": 265,
+        "score": 320,
+        "seconds": 61.4,
+        "hits": 3,
+        "epsilon": 0.073
+      },
+      {
+        "episode": 266,
+        "score": 552,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.069
+      },
+      {
+        "episode": 267,
+        "score": 213,
+        "seconds": 42.0,
+        "hits": 3,
+        "epsilon": 0.066
+      },
+      {
+        "episode": 268,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.062
+      },
+      {
+        "episode": 269,
+        "score": 527,
+        "seconds": 99.2,
+        "hits": 3,
+        "epsilon": 0.058
+      },
+      {
+        "episode": 270,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.055
+      },
+      {
+        "episode": 271,
+        "score": 558,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.052
+      },
+      {
+        "episode": 272,
+        "score": 560,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.048
+      },
+      {
+        "episode": 273,
+        "score": 558,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.044
+      },
+      {
+        "episode": 274,
+        "score": 565,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.041
+      },
+      {
+        "episode": 275,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.037
+      },
+      {
+        "episode": 276,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.034
+      },
+      {
+        "episode": 277,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.031
+      },
+      {
+        "episode": 278,
+        "score": 494,
+        "seconds": 92.7,
+        "hits": 3,
+        "epsilon": 0.027
+      },
+      {
+        "episode": 279,
+        "score": 374,
+        "seconds": 71.3,
+        "hits": 3,
+        "epsilon": 0.023
+      },
+      {
+        "episode": 280,
+        "score": 564,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 281,
+        "score": 563,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 282,
+        "score": 533,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 283,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 284,
+        "score": 562,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 285,
+        "score": 520,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 286,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 287,
+        "score": 412,
+        "seconds": 78.8,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 288,
+        "score": 520,
+        "seconds": 99.8,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 289,
+        "score": 558,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 290,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 291,
+        "score": 566,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 292,
+        "score": 560,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 293,
+        "score": 554,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 294,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 295,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 296,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 297,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 298,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 299,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 300,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 301,
+        "score": 554,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 302,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 303,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 304,
+        "score": 386,
+        "seconds": 73.2,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 305,
+        "score": 523,
+        "seconds": 96.0,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 306,
+        "score": 536,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 307,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 308,
+        "score": 525,
+        "seconds": 97.8,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 309,
+        "score": 155,
+        "seconds": 31.6,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 310,
+        "score": 562,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 311,
+        "score": 561,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 312,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 313,
+        "score": 554,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 314,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 315,
+        "score": 551,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 316,
+        "score": 427,
+        "seconds": 77.6,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 317,
+        "score": 557,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 318,
+        "score": 509,
+        "seconds": 93.5,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 319,
+        "score": 552,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 320,
+        "score": 557,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 321,
+        "score": 562,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 322,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 323,
+        "score": 533,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 324,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 325,
+        "score": 565,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 326,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 327,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 328,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 329,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 330,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 331,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 332,
+        "score": 571,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 333,
+        "score": 565,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 334,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 335,
+        "score": 552,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 336,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 337,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 338,
+        "score": 525,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 339,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 340,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 341,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 342,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 343,
+        "score": 554,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 344,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 345,
+        "score": 557,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 346,
+        "score": 565,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 347,
+        "score": 530,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 348,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 349,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 350,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 351,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 352,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 353,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 354,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 355,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 356,
+        "score": 373,
+        "seconds": 70.1,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 357,
+        "score": 572,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 358,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 359,
+        "score": 524,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 360,
+        "score": 562,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 361,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 362,
+        "score": 530,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 363,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 364,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 365,
+        "score": 559,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 366,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 367,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 368,
+        "score": 530,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 369,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 370,
+        "score": 540,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 371,
+        "score": 557,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 372,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 373,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 374,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 375,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 376,
+        "score": 530,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 377,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 378,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 379,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 380,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 381,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 382,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 383,
+        "score": 537,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 384,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 385,
+        "score": 461,
+        "seconds": 87.1,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 386,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 387,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 388,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 389,
+        "score": 532,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 390,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 391,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 392,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 393,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 394,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 395,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 396,
+        "score": 535,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 397,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 398,
+        "score": 561,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 399,
+        "score": 567,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      }
+    ],
+    "random_mixing": [
+      {
+        "episode": 0,
+        "score": 9,
+        "seconds": 6.0,
+        "hits": 3,
+        "epsilon": 1.0
+      },
+      {
+        "episode": 1,
+        "score": 4,
+        "seconds": 5.1,
+        "hits": 3,
+        "epsilon": 0.997
+      },
+      {
+        "episode": 2,
+        "score": 41,
+        "seconds": 11.5,
+        "hits": 3,
+        "epsilon": 0.993
+      },
+      {
+        "episode": 3,
+        "score": 8,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.99
+      },
+      {
+        "episode": 4,
+        "score": 0,
+        "seconds": 4.4,
+        "hits": 3,
+        "epsilon": 0.986
+      },
+      {
+        "episode": 5,
+        "score": 29,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.983
+      },
+      {
+        "episode": 6,
+        "score": 12,
+        "seconds": 6.4,
+        "hits": 3,
+        "epsilon": 0.979
+      },
+      {
+        "episode": 7,
+        "score": 13,
+        "seconds": 6.6,
+        "hits": 3,
+        "epsilon": 0.976
+      },
+      {
+        "episode": 8,
+        "score": 15,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.972
+      },
+      {
+        "episode": 9,
+        "score": 4,
+        "seconds": 4.5,
+        "hits": 3,
+        "epsilon": 0.969
+      },
+      {
+        "episode": 10,
+        "score": 25,
+        "seconds": 8.1,
+        "hits": 3,
+        "epsilon": 0.965
+      },
+      {
+        "episode": 11,
+        "score": 19,
+        "seconds": 7.3,
+        "hits": 3,
+        "epsilon": 0.962
+      },
+      {
+        "episode": 12,
+        "score": 22,
+        "seconds": 8.1,
+        "hits": 3,
+        "epsilon": 0.958
+      },
+      {
+        "episode": 13,
+        "score": 6,
+        "seconds": 5.3,
+        "hits": 3,
+        "epsilon": 0.955
+      },
+      {
+        "episode": 14,
+        "score": 6,
+        "seconds": 4.8,
+        "hits": 3,
+        "epsilon": 0.951
+      },
+      {
+        "episode": 15,
+        "score": 24,
+        "seconds": 7.7,
+        "hits": 3,
+        "epsilon": 0.948
+      },
+      {
+        "episode": 16,
+        "score": 48,
+        "seconds": 13.0,
+        "hits": 3,
+        "epsilon": 0.944
+      },
+      {
+        "episode": 17,
+        "score": 13,
+        "seconds": 6.9,
+        "hits": 3,
+        "epsilon": 0.941
+      },
+      {
+        "episode": 18,
+        "score": 8,
+        "seconds": 5.7,
+        "hits": 3,
+        "epsilon": 0.937
+      },
+      {
+        "episode": 19,
+        "score": 18,
+        "seconds": 7.9,
+        "hits": 3,
+        "epsilon": 0.933
+      },
+      {
+        "episode": 20,
+        "score": 0,
+        "seconds": 4.3,
+        "hits": 3,
+        "epsilon": 0.93
+      },
+      {
+        "episode": 21,
+        "score": 7,
+        "seconds": 5.3,
+        "hits": 3,
+        "epsilon": 0.926
+      },
+      {
+        "episode": 22,
+        "score": 20,
+        "seconds": 7.7,
+        "hits": 3,
+        "epsilon": 0.923
+      },
+      {
+        "episode": 23,
+        "score": 5,
+        "seconds": 5.4,
+        "hits": 3,
+        "epsilon": 0.919
+      },
+      {
+        "episode": 24,
+        "score": 30,
+        "seconds": 10.6,
+        "hits": 3,
+        "epsilon": 0.916
+      },
+      {
+        "episode": 25,
+        "score": 15,
+        "seconds": 6.4,
+        "hits": 3,
+        "epsilon": 0.912
+      },
+      {
+        "episode": 26,
+        "score": 28,
+        "seconds": 9.0,
+        "hits": 3,
+        "epsilon": 0.909
+      },
+      {
+        "episode": 27,
+        "score": 39,
+        "seconds": 11.6,
+        "hits": 3,
+        "epsilon": 0.905
+      },
+      {
+        "episode": 28,
+        "score": 27,
+        "seconds": 8.0,
+        "hits": 3,
+        "epsilon": 0.902
+      },
+      {
+        "episode": 29,
+        "score": 7,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.898
+      },
+      {
+        "episode": 30,
+        "score": 41,
+        "seconds": 11.5,
+        "hits": 3,
+        "epsilon": 0.895
+      },
+      {
+        "episode": 31,
+        "score": 10,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.891
+      },
+      {
+        "episode": 32,
+        "score": 6,
+        "seconds": 5.2,
+        "hits": 3,
+        "epsilon": 0.888
+      },
+      {
+        "episode": 33,
+        "score": 7,
+        "seconds": 4.9,
+        "hits": 3,
+        "epsilon": 0.885
+      },
+      {
+        "episode": 34,
+        "score": 19,
+        "seconds": 7.4,
+        "hits": 3,
+        "epsilon": 0.881
+      },
+      {
+        "episode": 35,
+        "score": 2,
+        "seconds": 4.9,
+        "hits": 3,
+        "epsilon": 0.878
+      },
+      {
+        "episode": 36,
+        "score": 9,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.874
+      },
+      {
+        "episode": 37,
+        "score": 24,
+        "seconds": 8.3,
+        "hits": 3,
+        "epsilon": 0.871
+      },
+      {
+        "episode": 38,
+        "score": 9,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.867
+      },
+      {
+        "episode": 39,
+        "score": 5,
+        "seconds": 5.4,
+        "hits": 3,
+        "epsilon": 0.864
+      },
+      {
+        "episode": 40,
+        "score": 42,
+        "seconds": 12.8,
+        "hits": 3,
+        "epsilon": 0.86
+      },
+      {
+        "episode": 41,
+        "score": 18,
+        "seconds": 7.6,
+        "hits": 3,
+        "epsilon": 0.857
+      },
+      {
+        "episode": 42,
+        "score": 9,
+        "seconds": 6.0,
+        "hits": 3,
+        "epsilon": 0.853
+      },
+      {
+        "episode": 43,
+        "score": 15,
+        "seconds": 6.6,
+        "hits": 3,
+        "epsilon": 0.85
+      },
+      {
+        "episode": 44,
+        "score": 5,
+        "seconds": 5.1,
+        "hits": 3,
+        "epsilon": 0.846
+      },
+      {
+        "episode": 45,
+        "score": 1,
+        "seconds": 5.0,
+        "hits": 3,
+        "epsilon": 0.843
+      },
+      {
+        "episode": 46,
+        "score": 5,
+        "seconds": 5.0,
+        "hits": 3,
+        "epsilon": 0.839
+      },
+      {
+        "episode": 47,
+        "score": 34,
+        "seconds": 9.8,
+        "hits": 3,
+        "epsilon": 0.836
+      },
+      {
+        "episode": 48,
+        "score": 15,
+        "seconds": 6.8,
+        "hits": 3,
+        "epsilon": 0.832
+      },
+      {
+        "episode": 49,
+        "score": 25,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.829
+      },
+      {
+        "episode": 50,
+        "score": 32,
+        "seconds": 9.8,
+        "hits": 3,
+        "epsilon": 0.825
+      },
+      {
+        "episode": 51,
+        "score": 7,
+        "seconds": 5.1,
+        "hits": 3,
+        "epsilon": 0.822
+      },
+      {
+        "episode": 52,
+        "score": 34,
+        "seconds": 10.2,
+        "hits": 3,
+        "epsilon": 0.818
+      },
+      {
+        "episode": 53,
+        "score": 2,
+        "seconds": 4.9,
+        "hits": 3,
+        "epsilon": 0.815
+      },
+      {
+        "episode": 54,
+        "score": 22,
+        "seconds": 8.0,
+        "hits": 3,
+        "epsilon": 0.811
+      },
+      {
+        "episode": 55,
+        "score": 17,
+        "seconds": 7.4,
+        "hits": 3,
+        "epsilon": 0.807
+      },
+      {
+        "episode": 56,
+        "score": 13,
+        "seconds": 6.0,
+        "hits": 3,
+        "epsilon": 0.804
+      },
+      {
+        "episode": 57,
+        "score": 39,
+        "seconds": 12.3,
+        "hits": 3,
+        "epsilon": 0.8
+      },
+      {
+        "episode": 58,
+        "score": 16,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.797
+      },
+      {
+        "episode": 59,
+        "score": 34,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.793
+      },
+      {
+        "episode": 60,
+        "score": 9,
+        "seconds": 5.7,
+        "hits": 3,
+        "epsilon": 0.79
+      },
+      {
+        "episode": 61,
+        "score": 14,
+        "seconds": 6.8,
+        "hits": 3,
+        "epsilon": 0.786
+      },
+      {
+        "episode": 62,
+        "score": 27,
+        "seconds": 9.2,
+        "hits": 3,
+        "epsilon": 0.783
+      },
+      {
+        "episode": 63,
+        "score": 3,
+        "seconds": 5.3,
+        "hits": 3,
+        "epsilon": 0.779
+      },
+      {
+        "episode": 64,
+        "score": 20,
+        "seconds": 7.4,
+        "hits": 3,
+        "epsilon": 0.776
+      },
+      {
+        "episode": 65,
+        "score": 12,
+        "seconds": 6.2,
+        "hits": 3,
+        "epsilon": 0.772
+      },
+      {
+        "episode": 66,
+        "score": 26,
+        "seconds": 8.4,
+        "hits": 3,
+        "epsilon": 0.769
+      },
+      {
+        "episode": 67,
+        "score": 29,
+        "seconds": 8.9,
+        "hits": 3,
+        "epsilon": 0.766
+      },
+      {
+        "episode": 68,
+        "score": 39,
+        "seconds": 11.0,
+        "hits": 3,
+        "epsilon": 0.762
+      },
+      {
+        "episode": 69,
+        "score": 4,
+        "seconds": 5.1,
+        "hits": 3,
+        "epsilon": 0.758
+      },
+      {
+        "episode": 70,
+        "score": 0,
+        "seconds": 4.4,
+        "hits": 3,
+        "epsilon": 0.755
+      },
+      {
+        "episode": 71,
+        "score": 24,
+        "seconds": 8.4,
+        "hits": 3,
+        "epsilon": 0.752
+      },
+      {
+        "episode": 72,
+        "score": 22,
+        "seconds": 7.6,
+        "hits": 3,
+        "epsilon": 0.748
+      },
+      {
+        "episode": 73,
+        "score": 2,
+        "seconds": 5.0,
+        "hits": 3,
+        "epsilon": 0.745
+      },
+      {
+        "episode": 74,
+        "score": 13,
+        "seconds": 6.7,
+        "hits": 3,
+        "epsilon": 0.741
+      },
+      {
+        "episode": 75,
+        "score": 29,
+        "seconds": 10.3,
+        "hits": 3,
+        "epsilon": 0.738
+      },
+      {
+        "episode": 76,
+        "score": 8,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.734
+      },
+      {
+        "episode": 77,
+        "score": 29,
+        "seconds": 10.3,
+        "hits": 3,
+        "epsilon": 0.731
+      },
+      {
+        "episode": 78,
+        "score": 15,
+        "seconds": 6.9,
+        "hits": 3,
+        "epsilon": 0.727
+      },
+      {
+        "episode": 79,
+        "score": 14,
+        "seconds": 6.3,
+        "hits": 3,
+        "epsilon": 0.724
+      },
+      {
+        "episode": 80,
+        "score": 33,
+        "seconds": 10.5,
+        "hits": 3,
+        "epsilon": 0.72
+      },
+      {
+        "episode": 81,
+        "score": 23,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.717
+      },
+      {
+        "episode": 82,
+        "score": 13,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.713
+      },
+      {
+        "episode": 83,
+        "score": 7,
+        "seconds": 5.5,
+        "hits": 3,
+        "epsilon": 0.71
+      },
+      {
+        "episode": 84,
+        "score": 23,
+        "seconds": 8.8,
+        "hits": 3,
+        "epsilon": 0.706
+      },
+      {
+        "episode": 85,
+        "score": 12,
+        "seconds": 6.9,
+        "hits": 3,
+        "epsilon": 0.703
+      },
+      {
+        "episode": 86,
+        "score": 32,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.699
+      },
+      {
+        "episode": 87,
+        "score": 43,
+        "seconds": 12.0,
+        "hits": 3,
+        "epsilon": 0.696
+      },
+      {
+        "episode": 88,
+        "score": 24,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.692
+      },
+      {
+        "episode": 89,
+        "score": 54,
+        "seconds": 13.4,
+        "hits": 3,
+        "epsilon": 0.689
+      },
+      {
+        "episode": 90,
+        "score": 2,
+        "seconds": 5.1,
+        "hits": 3,
+        "epsilon": 0.685
+      },
+      {
+        "episode": 91,
+        "score": 80,
+        "seconds": 18.0,
+        "hits": 3,
+        "epsilon": 0.681
+      },
+      {
+        "episode": 92,
+        "score": 9,
+        "seconds": 6.8,
+        "hits": 3,
+        "epsilon": 0.678
+      },
+      {
+        "episode": 93,
+        "score": 59,
+        "seconds": 16.2,
+        "hits": 3,
+        "epsilon": 0.674
+      },
+      {
+        "episode": 94,
+        "score": 42,
+        "seconds": 11.3,
+        "hits": 3,
+        "epsilon": 0.671
+      },
+      {
+        "episode": 95,
+        "score": 14,
+        "seconds": 7.4,
+        "hits": 3,
+        "epsilon": 0.667
+      },
+      {
+        "episode": 96,
+        "score": 21,
+        "seconds": 7.9,
+        "hits": 3,
+        "epsilon": 0.664
+      },
+      {
+        "episode": 97,
+        "score": 37,
+        "seconds": 10.7,
+        "hits": 3,
+        "epsilon": 0.66
+      },
+      {
+        "episode": 98,
+        "score": 10,
+        "seconds": 6.4,
+        "hits": 3,
+        "epsilon": 0.657
+      },
+      {
+        "episode": 99,
+        "score": 28,
+        "seconds": 9.3,
+        "hits": 3,
+        "epsilon": 0.653
+      },
+      {
+        "episode": 100,
+        "score": 17,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.65
+      },
+      {
+        "episode": 101,
+        "score": 56,
+        "seconds": 13.2,
+        "hits": 3,
+        "epsilon": 0.646
+      },
+      {
+        "episode": 102,
+        "score": 15,
+        "seconds": 7.0,
+        "hits": 3,
+        "epsilon": 0.643
+      },
+      {
+        "episode": 103,
+        "score": 50,
+        "seconds": 14.1,
+        "hits": 3,
+        "epsilon": 0.639
+      },
+      {
+        "episode": 104,
+        "score": 92,
+        "seconds": 20.1,
+        "hits": 3,
+        "epsilon": 0.636
+      },
+      {
+        "episode": 105,
+        "score": 43,
+        "seconds": 11.5,
+        "hits": 3,
+        "epsilon": 0.633
+      },
+      {
+        "episode": 106,
+        "score": 28,
+        "seconds": 9.5,
+        "hits": 3,
+        "epsilon": 0.629
+      },
+      {
+        "episode": 107,
+        "score": 26,
+        "seconds": 9.4,
+        "hits": 3,
+        "epsilon": 0.625
+      },
+      {
+        "episode": 108,
+        "score": 30,
+        "seconds": 9.4,
+        "hits": 3,
+        "epsilon": 0.622
+      },
+      {
+        "episode": 109,
+        "score": 11,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.619
+      },
+      {
+        "episode": 110,
+        "score": 103,
+        "seconds": 22.9,
+        "hits": 3,
+        "epsilon": 0.615
+      },
+      {
+        "episode": 111,
+        "score": 83,
+        "seconds": 18.6,
+        "hits": 3,
+        "epsilon": 0.611
+      },
+      {
+        "episode": 112,
+        "score": 49,
+        "seconds": 12.2,
+        "hits": 3,
+        "epsilon": 0.608
+      },
+      {
+        "episode": 113,
+        "score": 63,
+        "seconds": 14.9,
+        "hits": 3,
+        "epsilon": 0.605
+      },
+      {
+        "episode": 114,
+        "score": 55,
+        "seconds": 14.6,
+        "hits": 3,
+        "epsilon": 0.601
+      },
+      {
+        "episode": 115,
+        "score": 4,
+        "seconds": 5.0,
+        "hits": 3,
+        "epsilon": 0.597
+      },
+      {
+        "episode": 116,
+        "score": 59,
+        "seconds": 14.5,
+        "hits": 3,
+        "epsilon": 0.594
+      },
+      {
+        "episode": 117,
+        "score": 6,
+        "seconds": 5.0,
+        "hits": 3,
+        "epsilon": 0.591
+      },
+      {
+        "episode": 118,
+        "score": 21,
+        "seconds": 8.5,
+        "hits": 3,
+        "epsilon": 0.587
+      },
+      {
+        "episode": 119,
+        "score": 44,
+        "seconds": 11.8,
+        "hits": 3,
+        "epsilon": 0.583
+      },
+      {
+        "episode": 120,
+        "score": 28,
+        "seconds": 8.7,
+        "hits": 3,
+        "epsilon": 0.58
+      },
+      {
+        "episode": 121,
+        "score": 32,
+        "seconds": 9.4,
+        "hits": 3,
+        "epsilon": 0.577
+      },
+      {
+        "episode": 122,
+        "score": 84,
+        "seconds": 19.5,
+        "hits": 3,
+        "epsilon": 0.573
+      },
+      {
+        "episode": 123,
+        "score": 37,
+        "seconds": 10.9,
+        "hits": 3,
+        "epsilon": 0.57
+      },
+      {
+        "episode": 124,
+        "score": 16,
+        "seconds": 7.0,
+        "hits": 3,
+        "epsilon": 0.566
+      },
+      {
+        "episode": 125,
+        "score": 54,
+        "seconds": 13.0,
+        "hits": 3,
+        "epsilon": 0.562
+      },
+      {
+        "episode": 126,
+        "score": 173,
+        "seconds": 35.3,
+        "hits": 3,
+        "epsilon": 0.559
+      },
+      {
+        "episode": 127,
+        "score": 17,
+        "seconds": 7.5,
+        "hits": 3,
+        "epsilon": 0.556
+      },
+      {
+        "episode": 128,
+        "score": 58,
+        "seconds": 13.2,
+        "hits": 3,
+        "epsilon": 0.552
+      },
+      {
+        "episode": 129,
+        "score": 42,
+        "seconds": 12.0,
+        "hits": 3,
+        "epsilon": 0.548
+      },
+      {
+        "episode": 130,
+        "score": 34,
+        "seconds": 10.5,
+        "hits": 3,
+        "epsilon": 0.545
+      },
+      {
+        "episode": 131,
+        "score": 57,
+        "seconds": 14.6,
+        "hits": 3,
+        "epsilon": 0.542
+      },
+      {
+        "episode": 132,
+        "score": 50,
+        "seconds": 13.1,
+        "hits": 3,
+        "epsilon": 0.538
+      },
+      {
+        "episode": 133,
+        "score": 21,
+        "seconds": 8.2,
+        "hits": 3,
+        "epsilon": 0.534
+      },
+      {
+        "episode": 134,
+        "score": 89,
+        "seconds": 20.5,
+        "hits": 3,
+        "epsilon": 0.531
+      },
+      {
+        "episode": 135,
+        "score": 24,
+        "seconds": 9.3,
+        "hits": 3,
+        "epsilon": 0.527
+      },
+      {
+        "episode": 136,
+        "score": 47,
+        "seconds": 12.8,
+        "hits": 3,
+        "epsilon": 0.524
+      },
+      {
+        "episode": 137,
+        "score": 79,
+        "seconds": 18.8,
+        "hits": 3,
+        "epsilon": 0.52
+      },
+      {
+        "episode": 138,
+        "score": 36,
+        "seconds": 10.0,
+        "hits": 3,
+        "epsilon": 0.517
+      },
+      {
+        "episode": 139,
+        "score": 12,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.514
+      },
+      {
+        "episode": 140,
+        "score": 47,
+        "seconds": 13.3,
+        "hits": 3,
+        "epsilon": 0.51
+      },
+      {
+        "episode": 141,
+        "score": 25,
+        "seconds": 8.9,
+        "hits": 3,
+        "epsilon": 0.506
+      },
+      {
+        "episode": 142,
+        "score": 66,
+        "seconds": 15.7,
+        "hits": 3,
+        "epsilon": 0.503
+      },
+      {
+        "episode": 143,
+        "score": 17,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.5
+      },
+      {
+        "episode": 144,
+        "score": 61,
+        "seconds": 14.4,
+        "hits": 3,
+        "epsilon": 0.496
+      },
+      {
+        "episode": 145,
+        "score": 1,
+        "seconds": 4.6,
+        "hits": 3,
+        "epsilon": 0.493
+      },
+      {
+        "episode": 146,
+        "score": 32,
+        "seconds": 10.2,
+        "hits": 3,
+        "epsilon": 0.489
+      },
+      {
+        "episode": 147,
+        "score": 96,
+        "seconds": 21.0,
+        "hits": 3,
+        "epsilon": 0.486
+      },
+      {
+        "episode": 148,
+        "score": 33,
+        "seconds": 9.7,
+        "hits": 3,
+        "epsilon": 0.482
+      },
+      {
+        "episode": 149,
+        "score": 120,
+        "seconds": 27.1,
+        "hits": 3,
+        "epsilon": 0.478
+      },
+      {
+        "episode": 150,
+        "score": 100,
+        "seconds": 23.1,
+        "hits": 3,
+        "epsilon": 0.475
+      },
+      {
+        "episode": 151,
+        "score": 50,
+        "seconds": 12.2,
+        "hits": 3,
+        "epsilon": 0.472
+      },
+      {
+        "episode": 152,
+        "score": 82,
+        "seconds": 20.0,
+        "hits": 3,
+        "epsilon": 0.468
+      },
+      {
+        "episode": 153,
+        "score": 66,
+        "seconds": 16.3,
+        "hits": 3,
+        "epsilon": 0.465
+      },
+      {
+        "episode": 154,
+        "score": 37,
+        "seconds": 11.1,
+        "hits": 3,
+        "epsilon": 0.461
+      },
+      {
+        "episode": 155,
+        "score": 17,
+        "seconds": 7.4,
+        "hits": 3,
+        "epsilon": 0.458
+      },
+      {
+        "episode": 156,
+        "score": 93,
+        "seconds": 22.3,
+        "hits": 3,
+        "epsilon": 0.454
+      },
+      {
+        "episode": 157,
+        "score": 11,
+        "seconds": 5.6,
+        "hits": 3,
+        "epsilon": 0.451
+      },
+      {
+        "episode": 158,
+        "score": 116,
+        "seconds": 24.9,
+        "hits": 3,
+        "epsilon": 0.447
+      },
+      {
+        "episode": 159,
+        "score": 67,
+        "seconds": 16.4,
+        "hits": 3,
+        "epsilon": 0.444
+      },
+      {
+        "episode": 160,
+        "score": 50,
+        "seconds": 13.7,
+        "hits": 3,
+        "epsilon": 0.44
+      },
+      {
+        "episode": 161,
+        "score": 62,
+        "seconds": 15.4,
+        "hits": 3,
+        "epsilon": 0.436
+      },
+      {
+        "episode": 162,
+        "score": 115,
+        "seconds": 25.3,
+        "hits": 3,
+        "epsilon": 0.433
+      },
+      {
+        "episode": 163,
+        "score": 190,
+        "seconds": 37.9,
+        "hits": 3,
+        "epsilon": 0.429
+      },
+      {
+        "episode": 164,
+        "score": 103,
+        "seconds": 22.3,
+        "hits": 3,
+        "epsilon": 0.426
+      },
+      {
+        "episode": 165,
+        "score": 35,
+        "seconds": 9.9,
+        "hits": 3,
+        "epsilon": 0.422
+      },
+      {
+        "episode": 166,
+        "score": 97,
+        "seconds": 21.0,
+        "hits": 3,
+        "epsilon": 0.419
+      },
+      {
+        "episode": 167,
+        "score": 39,
+        "seconds": 10.6,
+        "hits": 3,
+        "epsilon": 0.415
+      },
+      {
+        "episode": 168,
+        "score": 95,
+        "seconds": 21.9,
+        "hits": 3,
+        "epsilon": 0.412
+      },
+      {
+        "episode": 169,
+        "score": 18,
+        "seconds": 7.2,
+        "hits": 3,
+        "epsilon": 0.408
+      },
+      {
+        "episode": 170,
+        "score": 78,
+        "seconds": 17.9,
+        "hits": 3,
+        "epsilon": 0.405
+      },
+      {
+        "episode": 171,
+        "score": 114,
+        "seconds": 23.7,
+        "hits": 3,
+        "epsilon": 0.402
+      },
+      {
+        "episode": 172,
+        "score": 52,
+        "seconds": 13.3,
+        "hits": 3,
+        "epsilon": 0.398
+      },
+      {
+        "episode": 173,
+        "score": 56,
+        "seconds": 14.4,
+        "hits": 3,
+        "epsilon": 0.395
+      },
+      {
+        "episode": 174,
+        "score": 62,
+        "seconds": 15.2,
+        "hits": 3,
+        "epsilon": 0.391
+      },
+      {
+        "episode": 175,
+        "score": 92,
+        "seconds": 19.9,
+        "hits": 3,
+        "epsilon": 0.387
+      },
+      {
+        "episode": 176,
+        "score": 76,
+        "seconds": 17.6,
+        "hits": 3,
+        "epsilon": 0.384
+      },
+      {
+        "episode": 177,
+        "score": 50,
+        "seconds": 12.9,
+        "hits": 3,
+        "epsilon": 0.38
+      },
+      {
+        "episode": 178,
+        "score": 102,
+        "seconds": 21.9,
+        "hits": 3,
+        "epsilon": 0.377
+      },
+      {
+        "episode": 179,
+        "score": 153,
+        "seconds": 32.6,
+        "hits": 3,
+        "epsilon": 0.374
+      },
+      {
+        "episode": 180,
+        "score": 34,
+        "seconds": 10.1,
+        "hits": 3,
+        "epsilon": 0.37
+      },
+      {
+        "episode": 181,
+        "score": 14,
+        "seconds": 6.5,
+        "hits": 3,
+        "epsilon": 0.367
+      },
+      {
+        "episode": 182,
+        "score": 108,
+        "seconds": 23.4,
+        "hits": 3,
+        "epsilon": 0.363
+      },
+      {
+        "episode": 183,
+        "score": 86,
+        "seconds": 18.9,
+        "hits": 3,
+        "epsilon": 0.36
+      },
+      {
+        "episode": 184,
+        "score": 114,
+        "seconds": 24.1,
+        "hits": 3,
+        "epsilon": 0.356
+      },
+      {
+        "episode": 185,
+        "score": 142,
+        "seconds": 28.9,
+        "hits": 3,
+        "epsilon": 0.353
+      },
+      {
+        "episode": 186,
+        "score": 83,
+        "seconds": 18.7,
+        "hits": 3,
+        "epsilon": 0.349
+      },
+      {
+        "episode": 187,
+        "score": 83,
+        "seconds": 18.8,
+        "hits": 3,
+        "epsilon": 0.346
+      },
+      {
+        "episode": 188,
+        "score": 78,
+        "seconds": 19.0,
+        "hits": 3,
+        "epsilon": 0.342
+      },
+      {
+        "episode": 189,
+        "score": 89,
+        "seconds": 19.2,
+        "hits": 3,
+        "epsilon": 0.339
+      },
+      {
+        "episode": 190,
+        "score": 133,
+        "seconds": 28.3,
+        "hits": 3,
+        "epsilon": 0.335
+      },
+      {
+        "episode": 191,
+        "score": 18,
+        "seconds": 7.1,
+        "hits": 3,
+        "epsilon": 0.332
+      },
+      {
+        "episode": 192,
+        "score": 80,
+        "seconds": 18.9,
+        "hits": 3,
+        "epsilon": 0.328
+      },
+      {
+        "episode": 193,
+        "score": 45,
+        "seconds": 12.7,
+        "hits": 3,
+        "epsilon": 0.325
+      },
+      {
+        "episode": 194,
+        "score": 50,
+        "seconds": 14.3,
+        "hits": 3,
+        "epsilon": 0.321
+      },
+      {
+        "episode": 195,
+        "score": 234,
+        "seconds": 46.9,
+        "hits": 3,
+        "epsilon": 0.318
+      },
+      {
+        "episode": 196,
+        "score": 12,
+        "seconds": 6.2,
+        "hits": 3,
+        "epsilon": 0.314
+      },
+      {
+        "episode": 197,
+        "score": 120,
+        "seconds": 26.6,
+        "hits": 3,
+        "epsilon": 0.31
+      },
+      {
+        "episode": 198,
+        "score": 24,
+        "seconds": 9.9,
+        "hits": 3,
+        "epsilon": 0.307
+      },
+      {
+        "episode": 199,
+        "score": 165,
+        "seconds": 33.5,
+        "hits": 3,
+        "epsilon": 0.303
+      },
+      {
+        "episode": 200,
+        "score": 73,
+        "seconds": 16.9,
+        "hits": 3,
+        "epsilon": 0.3
+      },
+      {
+        "episode": 201,
+        "score": 148,
+        "seconds": 31.1,
+        "hits": 3,
+        "epsilon": 0.296
+      },
+      {
+        "episode": 202,
+        "score": 63,
+        "seconds": 16.5,
+        "hits": 3,
+        "epsilon": 0.293
+      },
+      {
+        "episode": 203,
+        "score": 182,
+        "seconds": 37.3,
+        "hits": 3,
+        "epsilon": 0.289
+      },
+      {
+        "episode": 204,
+        "score": 9,
+        "seconds": 5.8,
+        "hits": 3,
+        "epsilon": 0.286
+      },
+      {
+        "episode": 205,
+        "score": 360,
+        "seconds": 68.2,
+        "hits": 3,
+        "epsilon": 0.282
+      },
+      {
+        "episode": 206,
+        "score": 123,
+        "seconds": 27.9,
+        "hits": 3,
+        "epsilon": 0.279
+      },
+      {
+        "episode": 207,
+        "score": 114,
+        "seconds": 24.6,
+        "hits": 3,
+        "epsilon": 0.276
+      },
+      {
+        "episode": 208,
+        "score": 111,
+        "seconds": 24.7,
+        "hits": 3,
+        "epsilon": 0.272
+      },
+      {
+        "episode": 209,
+        "score": 103,
+        "seconds": 22.0,
+        "hits": 3,
+        "epsilon": 0.269
+      },
+      {
+        "episode": 210,
+        "score": 234,
+        "seconds": 44.5,
+        "hits": 3,
+        "epsilon": 0.265
+      },
+      {
+        "episode": 211,
+        "score": 148,
+        "seconds": 30.0,
+        "hits": 3,
+        "epsilon": 0.261
+      },
+      {
+        "episode": 212,
+        "score": 127,
+        "seconds": 27.1,
+        "hits": 3,
+        "epsilon": 0.258
+      },
+      {
+        "episode": 213,
+        "score": 57,
+        "seconds": 14.5,
+        "hits": 3,
+        "epsilon": 0.254
+      },
+      {
+        "episode": 214,
+        "score": 148,
+        "seconds": 30.9,
+        "hits": 3,
+        "epsilon": 0.251
+      },
+      {
+        "episode": 215,
+        "score": 66,
+        "seconds": 16.9,
+        "hits": 3,
+        "epsilon": 0.248
+      },
+      {
+        "episode": 216,
+        "score": 281,
+        "seconds": 53.1,
+        "hits": 3,
+        "epsilon": 0.244
+      },
+      {
+        "episode": 217,
+        "score": 98,
+        "seconds": 20.7,
+        "hits": 3,
+        "epsilon": 0.241
+      },
+      {
+        "episode": 218,
+        "score": 103,
+        "seconds": 23.4,
+        "hits": 3,
+        "epsilon": 0.237
+      },
+      {
+        "episode": 219,
+        "score": 157,
+        "seconds": 31.9,
+        "hits": 3,
+        "epsilon": 0.233
+      },
+      {
+        "episode": 220,
+        "score": 307,
+        "seconds": 57.2,
+        "hits": 3,
+        "epsilon": 0.23
+      },
+      {
+        "episode": 221,
+        "score": 224,
+        "seconds": 43.0,
+        "hits": 3,
+        "epsilon": 0.227
+      },
+      {
+        "episode": 222,
+        "score": 227,
+        "seconds": 43.8,
+        "hits": 3,
+        "epsilon": 0.223
+      },
+      {
+        "episode": 223,
+        "score": 243,
+        "seconds": 48.0,
+        "hits": 3,
+        "epsilon": 0.22
+      },
+      {
+        "episode": 224,
+        "score": 523,
+        "seconds": 97.8,
+        "hits": 3,
+        "epsilon": 0.216
+      },
+      {
+        "episode": 225,
+        "score": 110,
+        "seconds": 22.1,
+        "hits": 3,
+        "epsilon": 0.213
+      },
+      {
+        "episode": 226,
+        "score": 506,
+        "seconds": 93.8,
+        "hits": 3,
+        "epsilon": 0.209
+      },
+      {
+        "episode": 227,
+        "score": 380,
+        "seconds": 71.5,
+        "hits": 3,
+        "epsilon": 0.206
+      },
+      {
+        "episode": 228,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.202
+      },
+      {
+        "episode": 229,
+        "score": 205,
+        "seconds": 41.7,
+        "hits": 3,
+        "epsilon": 0.199
+      },
+      {
+        "episode": 230,
+        "score": 206,
+        "seconds": 41.9,
+        "hits": 3,
+        "epsilon": 0.195
+      },
+      {
+        "episode": 231,
+        "score": 148,
+        "seconds": 31.8,
+        "hits": 3,
+        "epsilon": 0.192
+      },
+      {
+        "episode": 232,
+        "score": 389,
+        "seconds": 72.8,
+        "hits": 3,
+        "epsilon": 0.188
+      },
+      {
+        "episode": 233,
+        "score": 272,
+        "seconds": 52.3,
+        "hits": 3,
+        "epsilon": 0.184
+      },
+      {
+        "episode": 234,
+        "score": 352,
+        "seconds": 67.0,
+        "hits": 3,
+        "epsilon": 0.181
+      },
+      {
+        "episode": 235,
+        "score": 290,
+        "seconds": 58.5,
+        "hits": 3,
+        "epsilon": 0.178
+      },
+      {
+        "episode": 236,
+        "score": 226,
+        "seconds": 44.1,
+        "hits": 3,
+        "epsilon": 0.174
+      },
+      {
+        "episode": 237,
+        "score": 538,
+        "seconds": 98.4,
+        "hits": 3,
+        "epsilon": 0.17
+      },
+      {
+        "episode": 238,
+        "score": 170,
+        "seconds": 34.6,
+        "hits": 3,
+        "epsilon": 0.167
+      },
+      {
+        "episode": 239,
+        "score": 213,
+        "seconds": 40.8,
+        "hits": 3,
+        "epsilon": 0.163
+      },
+      {
+        "episode": 240,
+        "score": 162,
+        "seconds": 32.2,
+        "hits": 3,
+        "epsilon": 0.16
+      },
+      {
+        "episode": 241,
+        "score": 154,
+        "seconds": 30.4,
+        "hits": 3,
+        "epsilon": 0.156
+      },
+      {
+        "episode": 242,
+        "score": 57,
+        "seconds": 15.2,
+        "hits": 3,
+        "epsilon": 0.153
+      },
+      {
+        "episode": 243,
+        "score": 449,
+        "seconds": 84.3,
+        "hits": 3,
+        "epsilon": 0.15
+      },
+      {
+        "episode": 244,
+        "score": 204,
+        "seconds": 39.7,
+        "hits": 3,
+        "epsilon": 0.146
+      },
+      {
+        "episode": 245,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.143
+      },
+      {
+        "episode": 246,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.139
+      },
+      {
+        "episode": 247,
+        "score": 193,
+        "seconds": 39.6,
+        "hits": 3,
+        "epsilon": 0.135
+      },
+      {
+        "episode": 248,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.132
+      },
+      {
+        "episode": 249,
+        "score": 272,
+        "seconds": 52.3,
+        "hits": 3,
+        "epsilon": 0.129
+      },
+      {
+        "episode": 250,
+        "score": 225,
+        "seconds": 44.0,
+        "hits": 3,
+        "epsilon": 0.125
+      },
+      {
+        "episode": 251,
+        "score": 536,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.122
+      },
+      {
+        "episode": 252,
+        "score": 524,
+        "seconds": 98.7,
+        "hits": 3,
+        "epsilon": 0.118
+      },
+      {
+        "episode": 253,
+        "score": 538,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.115
+      },
+      {
+        "episode": 254,
+        "score": 227,
+        "seconds": 43.1,
+        "hits": 3,
+        "epsilon": 0.111
+      },
+      {
+        "episode": 255,
+        "score": 87,
+        "seconds": 19.8,
+        "hits": 3,
+        "epsilon": 0.107
+      },
+      {
+        "episode": 256,
+        "score": 536,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.104
+      },
+      {
+        "episode": 257,
+        "score": 552,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.101
+      },
+      {
+        "episode": 258,
+        "score": 518,
+        "seconds": 95.2,
+        "hits": 3,
+        "epsilon": 0.097
+      },
+      {
+        "episode": 259,
+        "score": 533,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.094
+      },
+      {
+        "episode": 260,
+        "score": 287,
+        "seconds": 55.1,
+        "hits": 3,
+        "epsilon": 0.09
+      },
+      {
+        "episode": 261,
+        "score": 423,
+        "seconds": 79.4,
+        "hits": 3,
+        "epsilon": 0.087
+      },
+      {
+        "episode": 262,
+        "score": 298,
+        "seconds": 56.7,
+        "hits": 3,
+        "epsilon": 0.083
+      },
+      {
+        "episode": 263,
+        "score": 533,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.08
+      },
+      {
+        "episode": 264,
+        "score": 91,
+        "seconds": 20.4,
+        "hits": 3,
+        "epsilon": 0.076
+      },
+      {
+        "episode": 265,
+        "score": 534,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.073
+      },
+      {
+        "episode": 266,
+        "score": 277,
+        "seconds": 53.9,
+        "hits": 3,
+        "epsilon": 0.069
+      },
+      {
+        "episode": 267,
+        "score": 180,
+        "seconds": 36.0,
+        "hits": 3,
+        "epsilon": 0.066
+      },
+      {
+        "episode": 268,
+        "score": 551,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.062
+      },
+      {
+        "episode": 269,
+        "score": 391,
+        "seconds": 74.0,
+        "hits": 3,
+        "epsilon": 0.058
+      },
+      {
+        "episode": 270,
+        "score": 273,
+        "seconds": 52.4,
+        "hits": 3,
+        "epsilon": 0.055
+      },
+      {
+        "episode": 271,
+        "score": 540,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.052
+      },
+      {
+        "episode": 272,
+        "score": 530,
+        "seconds": 98.0,
+        "hits": 3,
+        "epsilon": 0.048
+      },
+      {
+        "episode": 273,
+        "score": 551,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.044
+      },
+      {
+        "episode": 274,
+        "score": 558,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.041
+      },
+      {
+        "episode": 275,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.037
+      },
+      {
+        "episode": 276,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.034
+      },
+      {
+        "episode": 277,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.031
+      },
+      {
+        "episode": 278,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.027
+      },
+      {
+        "episode": 279,
+        "score": 500,
+        "seconds": 92.0,
+        "hits": 3,
+        "epsilon": 0.023
+      },
+      {
+        "episode": 280,
+        "score": 564,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 281,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 282,
+        "score": 351,
+        "seconds": 66.9,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 283,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 284,
+        "score": 369,
+        "seconds": 68.6,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 285,
+        "score": 514,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 286,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 287,
+        "score": 536,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 288,
+        "score": 528,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 289,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 290,
+        "score": 529,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 291,
+        "score": 566,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 292,
+        "score": 566,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 293,
+        "score": 456,
+        "seconds": 85.3,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 294,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 295,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 296,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 297,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 298,
+        "score": 533,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 299,
+        "score": 534,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 300,
+        "score": 558,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 301,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 302,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 303,
+        "score": 567,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 304,
+        "score": 552,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 305,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 306,
+        "score": 536,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 307,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 308,
+        "score": 536,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 309,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 310,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 311,
+        "score": 551,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 312,
+        "score": 558,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 313,
+        "score": 551,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 314,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 315,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 316,
+        "score": 564,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 317,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 318,
+        "score": 565,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 319,
+        "score": 538,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 320,
+        "score": 566,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 321,
+        "score": 562,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 322,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 323,
+        "score": 531,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 324,
+        "score": 540,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 325,
+        "score": 546,
+        "seconds": 99.5,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 326,
+        "score": 539,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 327,
+        "score": 544,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 328,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 329,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 330,
+        "score": 554,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 331,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 332,
+        "score": 552,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 333,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 334,
+        "score": 542,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 335,
+        "score": 333,
+        "seconds": 65.0,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 336,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 337,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 338,
+        "score": 538,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 339,
+        "score": 537,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 340,
+        "score": 551,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 341,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 342,
+        "score": 541,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 343,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 344,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 345,
+        "score": 365,
+        "seconds": 67.6,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 346,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 347,
+        "score": 528,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 348,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 349,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 350,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 351,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 352,
+        "score": 540,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 353,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 354,
+        "score": 559,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 355,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 356,
+        "score": 294,
+        "seconds": 56.3,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 357,
+        "score": 563,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 358,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 359,
+        "score": 543,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 360,
+        "score": 562,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 361,
+        "score": 540,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 362,
+        "score": 537,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 363,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 364,
+        "score": 537,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 365,
+        "score": 551,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 366,
+        "score": 533,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 367,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 368,
+        "score": 538,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 369,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 370,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 371,
+        "score": 557,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 372,
+        "score": 554,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 373,
+        "score": 559,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 374,
+        "score": 547,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 375,
+        "score": 537,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 376,
+        "score": 538,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 377,
+        "score": 532,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 378,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 379,
+        "score": 535,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 380,
+        "score": 534,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 381,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 382,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 383,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 384,
+        "score": 533,
+        "seconds": 100.0,
+        "hits": 2,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 385,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 386,
+        "score": 556,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 387,
+        "score": 242,
+        "seconds": 47.2,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 388,
+        "score": 546,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 389,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 390,
+        "score": 550,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 391,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 392,
+        "score": 555,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 393,
+        "score": 564,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 394,
+        "score": 549,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 395,
+        "score": 436,
+        "seconds": 81.7,
+        "hits": 3,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 396,
+        "score": 545,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 397,
+        "score": 548,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 398,
+        "score": 553,
+        "seconds": 100.0,
+        "hits": 1,
+        "epsilon": 0.02
+      },
+      {
+        "episode": 399,
+        "score": 567,
+        "seconds": 100.0,
+        "hits": 0,
+        "epsilon": 0.02
+      }
+    ]
+  },
+  "evaluation": {
+    "random": {
+      "mean_score": 15.7,
+      "std_score": 9.6,
+      "mean_survival_s": 7.1,
+      "hits_per_minute": 25.31,
+      "survived_full_100s": "0/30"
+    },
+    "always_stay": {
+      "mean_score": 20.6,
+      "std_score": 14.7,
+      "mean_survival_s": 8.0,
+      "hits_per_minute": 22.6,
+      "survived_full_100s": "0/30"
+    },
+    "heuristic (hand-written)": {
+      "mean_score": 275.2,
+      "std_score": 150.0,
+      "mean_survival_s": 53.3,
+      "hits_per_minute": 3.19,
+      "survived_full_100s": "3/30"
+    },
+    "pixels Q-learning": {
+      "mean_score": 537.1,
+      "std_score": 48.9,
+      "mean_survival_s": 97.5,
+      "hits_per_minute": 0.43,
+      "survived_full_100s": "27/30"
+    },
+    "random mixing Q-learning (control)": {
+      "mean_score": 541.5,
+      "std_score": 41.5,
+      "mean_survival_s": 98.4,
+      "hits_per_minute": 0.47,
+      "survived_full_100s": "28/30"
+    },
+    "connectome Q-learning": {
+      "mean_score": 543.0,
+      "std_score": 33.8,
+      "mean_survival_s": 98.7,
+      "hits_per_minute": 0.53,
+      "survived_full_100s": "28/30"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.venv/
+.pip-cache/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+node_modules/
+.npm-cache/
+frontend/dist/
+
+# data and trained models are rebuilt locally
+backend/data/raw/
+backend/data/processed/
+models/**/*.pt
+models/**/*.pkl
